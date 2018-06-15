@@ -1,0 +1,16 @@
+node_modules
+*.command
+.sass-cache
+*.js.map
+*.css.map
+memo.txt
+.htaccess
+.htpasswd
+wp-config.php
+old_html
+/html/nbproject/*
+/html/assets/inc/cms/cache/*
+/html/assets/inc/cms/logs/*
+.DS_Store
+!empty
+.next
