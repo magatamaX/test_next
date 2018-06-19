@@ -1,0 +1,151 @@
+@charset "utf-8";
+
+.fw {
+
+    // ----------------------------------------------------------
+    // Other
+    // ----------------------------------------------------------
+    // section padding
+    .a-pd_section {
+      @include pt(40px);
+      @include pb(40px);
+      
+      &_narrow {
+        @include pt(20px);
+        @include pb(20px);
+      }
+    }
+    //border
+    .a-bd {
+      
+      &_top {
+        border-top: 1px solid #c1c1c2;
+      }
+      
+      &_bottom {
+        border-bottom: 1px solid #c1c1c2;
+      }
+      
+    }
+    // background
+    .a-bg {
+      
+      &_blue {
+        background-color: $color_main;
+        color: #fff;
+      }
+      
+      &_lgray {
+        background-color: $lightGray;
+      }
+      
+      &_slgray {
+        background-color: $superLightGray;
+      }
+      
+      &_gray {
+        background-color: $gray;
+        color: #fff;
+      }
+      
+      &_shape {
+        background-image: url(../images/bg_shape.png);
+        background-repeat: no-repeat;
+        background-size: 44%;
+        background-position: top 10px right 20px;
+      }
+      
+    }
+    
+    // text
+    .a-txt {
+      
+      &_l {
+        
+      }
+      
+      &_m {
+        
+      }
+      
+      &_s {
+        @include fontSize(12px);
+      }
+      
+      &_b {
+        font-weight: bold;
+      }
+      
+    }
+    
+    // text box
+    .a-txtBox {
+      
+      p {
+        display: inline-block;
+        @include pd(0 0.5em);
+      }
+      
+      &_center {
+        text-align: center;
+      }
+      
+      &_black {
+        p {
+          background-color: #343434;
+          color: #fff;
+        }
+      }
+      
+    }
+    
+    // color
+    .a-color {
+      &_black {
+        color: #111;
+      }
+    }
+    
+    // text link
+    .a-txtlink {
+      font-weight: bold;
+      display: inline-block;
+      @include pr(30px);
+      @include arrowAbs($color:$color_main, $size:6, $width:2,$layout:right,$position:15,$direction:right);
+    }
+    
+    // 特別措置！
+    .a-specialSpaceForTtlBox {
+      position: relative;
+      
+      &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: 100%;
+        left: 0;
+        width: 100%;
+        height: 60px;
+        z-index: -1;
+      }
+      
+      &_bg {
+        
+        &_blue {
+          &:before {
+            background-color: $color_main;
+          }
+        }
+        
+        &_lgray {
+          &:before {
+            background-color: $lightGray;
+          }
+        }
+        
+      }
+      
+    }
+    
+
+}//.fw

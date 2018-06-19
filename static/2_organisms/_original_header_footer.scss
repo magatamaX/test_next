@@ -1,0 +1,4146 @@
+@charset "utf-8";
+
+.fw {
+
+	// ----------------------------------------------------------
+	// Header
+	// ----------------------------------------------------------
+  #str-container #nav-global {
+      border-bottom: solid 1px #d9dadc
+  }
+  #nav-global>ul {
+      margin: 0;
+      display: table;
+      width: 100%;
+      table-layout: fixed;
+      font-size: 8px;
+      text-align: center;
+      white-space: nowrap
+  }
+  
+  html[lang="en"] #nav-global>ul {
+      font-size: 9px
+  }
+  
+  #nav-global.nav-global-home>ul {
+      background-color: #f4f5f6
+  }
+  
+  #str-container #nav-global>ul {
+      border-bottom: none;
+      background: none;
+      text-shadow: none;
+      font-size: 8px
+  }
+  
+  html[lang="en"] #str-container #nav-global>ul {
+      font-size: 9px
+  }
+  
+  #str-container #nav-global.nav-global-home>ul {
+      background-color: #f4f5f6
+  }
+  
+  #nav-global>ul>li {
+      display: table-cell;
+      line-height: 1;
+      letter-spacing: inherit
+  }
+  
+  #nav-global>ul>li>a {
+      padding: 8px 1px 5px;
+      color: #5f6e7e;
+      display: block;
+      text-decoration: none;
+      position: relative
+  }
+  
+  #str-container #nav-global>ul>li>a {
+      padding: 8px 1px 5px;
+      font-weight: normal
+  }
+  
+  #nav-global>ul>li>a:after {
+      content: "";
+      margin-right: auto;
+      margin-left: auto;
+      position: absolute;
+      top: 8px;
+      right: 0;
+      left: 0
+  }
+  
+  #str-container #nav-global>ul>li>a:after {
+      margin-right: auto;
+      margin-left: auto;
+      top: 8px;
+      right: 0;
+      left: 0
+  }
+  
+  #nav-global>ul>li>a:visited,#nav-global>ul>li>a:hover,#nav-global>ul>li>a:focus {
+      color: #5f6e7e
+  }
+  
+  #nav-global>ul>li>a>span {
+      padding: 34px 0 4px;
+      display: block
+  }
+  
+  #nav-global>ul>li.mobile {
+      letter-spacing: normal
+  }
+  
+  #str-container #nav-global>ul>li.options {
+      letter-spacing: -0.2em
+  }
+  
+  #str-container #nav-global>ul>li.campaigns {
+      letter-spacing: -0.2em
+  }
+  
+  #str-container #nav-global>ul>li.guides {
+      letter-spacing: -0.2em
+  }
+  
+  #str-container #nav-global>ul>li.contacts {
+      letter-spacing: -0.2em
+  }
+  
+  #str-container #nav-global>ul>li>a:after {
+      background-image: url(https://cdn.softbank.jp/site/set/common/s/img/sprite-rf2.png?20170907);
+      background-position: -381px -204px;
+      width: 32px;
+      height: 32px;
+      -webkit-background-size: 413px 380px;
+      background-size: 413px 380px;
+      background-repeat: no-repeat;
+      text-indent: -9999px;
+      overflow: hidden
+  }
+  
+  #str-container #nav-global>ul>li.mobile>a:after {
+      background-position: -381px -204px
+  }
+  
+  #str-container #nav-global>ul>li.ybb>a:after {
+      background-position: 0px -280px
+  }
+  
+  #str-container #nav-global>ul>li.corp>a:after {
+      background-position: -204px -314px
+  }
+  
+  #str-container #nav-global>ul>li.campaign>a:after {
+      background-position: -340px -280px
+  }
+  
+  #str-container #nav-global>ul>li.products>a:after {
+      background-position: -381px -34px
+  }
+  
+  #str-container #nav-global>ul>li.price>a:after {
+      background-position: 0px -348px
+  }
+  
+  #str-container #nav-global>ul>li.application>a:after {
+      background-position: -272px -280px
+  }
+  
+  #str-container #nav-global>ul>li.shop-search>a:after {
+      background-position: -68px -280px
+  }
+  
+  #str-container #nav-global>ul>li.support>a:after {
+      background-position: -34px -280px
+  }
+  
+  #str-container #nav-global>ul>li.news>a:after {
+      background-position: -381px -238px
+  }
+  
+  #str-container #nav-global>ul>li.csr>a:after {
+      background-position: -238px -314px
+  }
+  
+  #str-container #nav-global>ul>li.group>a:after {
+      background-position: -68px -348px
+  }
+  
+  #str-container #nav-global>ul>li.corp-about>a:after {
+      background-position: -170px -314px
+  }
+  
+  #str-container #nav-global>ul>li.irinfo>a:after {
+      background-position: -381px -136px
+  }
+  
+  #str-container #nav-global>ul>li.recruit>a:after {
+      background-position: -238px -280px
+  }
+  
+  #str-container #nav-global>ul>li.service>a:after {
+      background-position: -102px -280px
+  }
+  
+  #str-container #nav-global>ul>li.entry>a:after {
+      background-position: -381px 0px
+  }
+  
+  #str-container #nav-global>ul>li.member>a:after {
+      background-position: -381px -170px
+  }
+  
+  #str-container #nav-global>ul>li.products-search>a:after {
+      background-position: -34px -348px
+  }
+  
+  #str-container #nav-global>ul>li.options>a:after {
+      background-position: -381px -272px
+  }
+  
+  #str-container #nav-global>ul>li.campaigns>a:after {
+      background-position: 0px -314px
+  }
+  
+  #str-container #nav-global>ul>li.guides>a:after {
+      background-position: -381px -68px
+  }
+  
+  #str-container #nav-global>ul>li.contacts>a:after {
+      background-position: -136px -314px
+  }
+  
+  #str-container #nav-global>ul>li.card-about>a:after {
+      background-position: -34px -314px
+  }
+  
+  #str-container #nav-global>ul>li.order>a:after {
+      background-position: -381px -306px
+  }
+  
+  #str-container #nav-global>ul>li.howto>a:after {
+      background-position: -381px -102px
+  }
+  
+  #str-container #nav-global>ul>li.robot>a:after {
+      background-position: -204px -280px
+  }
+  
+  #str-container #nav-global>ul>li.energy>a:after {
+      background-position: -340px -314px
+  }
+  
+  #str-container #nav-global>ul>li.consumer>a:after {
+      background-position: -102px -314px
+  }
+  
+  #str-container #nav-global>ul>li.biz>a:after {
+      background-position: -306px -280px
+  }
+  
+  #str-container #nav-global>ul>li.education>a:after {
+      background-position: -306px -314px
+  }
+  
+  #str-container #nav-global>ul>li.developer>a:after {
+      background-position: -272px -314px
+  }
+  
+  #str-container #nav-global>ul>li.service-solution>a:after {
+      background-position: -136px -280px
+  }
+  
+  #str-container #nav-global>ul>li.case>a:after {
+      background-position: -68px -314px
+  }
+  
+  #str-container #nav-global>ul>li.seminar>a:after {
+      background-position: -170px -280px
+  }
+  
+  #str-container #nav-global>ul>li {
+      letter-spacing: inherit
+  }
+  
+  #str-container #nav-global>ul>li>a {
+      color: #5f6e7e
+  }
+  
+  #str-container #nav-global>ul>li>a:before {
+      display: none
+  }
+  
+  #str-container #nav-global>ul>li>a>span {
+      padding: 34px 0 4px;
+      display: block
+  }
+  
+  #str-container #nav-global>ul>li.active>a {
+      padding-bottom: 0
+  }
+  
+  #str-container #nav-global>ul>li.active>a>span {
+      padding-bottom: 7px;
+      border-bottom: solid 2px #6197d6
+  }
+  
+  #str-container #nav-global>ul>li.active>a>span:before {
+      display: none
+  }
+  
+  #nav-global>ul>li.robot {
+      letter-spacing: normal
+  }
+  
+  #nav-global>ul>li.energy {
+      letter-spacing: normal
+  }
+  
+  .hdg-category {
+      margin-bottom: 0;
+      padding: 7px 10px 5px;
+      color: #5f6e7e;
+      background-color: #e6e8eb;
+      font-size: 19px;
+      font-weight: bold;
+      line-height: 19px
+  }
+  
+  #str-container .hdg-category {
+      margin: 0 0 10px;
+      padding: 7px 10px 5px;
+      border-bottom: none;
+      color: #5f6e7e;
+      background-color: #e6e8eb;
+      font-size: 19px;
+      font-weight: bold;
+      line-height: 19px
+  }
+  
+  #str-container .hdg-category a {
+      color: #5f6e7e
+  }
+  
+  #str-container .hdg-category+#nav-global {
+      margin-top: -10px
+  }
+  
+  .hdg-category a:link,.hdg-category a:active,.hdg-category a:visited,.hdg-category a:hover,.hdg-category a:focus {
+      color: #5f6e7e;
+      font-weight: bold;
+      text-decoration: none
+  }
+  
+  .icon-new {
+      vertical-align: middle;
+      font-size: 10px;
+      margin: 0 3px 2px !important
+  }
+  
+  .lyt-campaign-03 a {
+      color: #fff;
+      text-decoration: underline
+  }
+  
+  #header-2015>.utility,#header-2015 .btn-menu-wrap {
+      display: table-cell;
+      vertical-align: top
+  }
+  
+  #header-2015>.utility .btn-mysoftbank,#header-2015>.utility .btn-shop,#header-2015 .btn-menu {
+      position: relative;
+      display: block;
+      padding-top: 27px;
+      font-size: 8px;
+      color: #5f6e7e;
+      text-align: center
+  }
+  
+  #header-2015>.utility .btn-mysoftbank {
+      min-width: 25px;
+      margin: 0
+  }
+  
+  #header-2015>.utility .btn-shop {
+      min-width: 25px;
+      margin: 0 0 0 11px
+  }
+  
+  #header-2015 .btn-menu {
+      min-width: 26px;
+      margin: 0 0 0 10px
+  }
+  
+  html[lang="en"] #header-2015>.utility .btn-shop {
+      margin-left: 14.3px
+  }
+  
+  html[lang="en"] #header-2015 .btn-menu {
+      min-width: 26px;
+      margin-left: 17px
+  }
+  
+  #header-2015 {
+      display: table;
+      width: 100%;
+      margin-bottom: 0;
+      padding: 7px 10px 0 10px;
+      border-bottom: 1px solid #d6d7d8;
+      height: 51px;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      font-size: 14px;
+      text-align: right
+  }
+  
+  html[lang="en"] #header-2015 {
+      padding: 7px 13px 0 10px
+  }
+  
+  #header-2015>#logo {
+      padding-top: 8.5px;
+      display: table-cell;
+      text-align: left;
+      vertical-align: top
+  }
+  
+  #header-2015>#logo img {
+      width: 129px;
+      height: 19px;
+      line-height: 1;
+      vertical-align: top
+  }
+  
+  #header-2015>#logo img.logo-group {
+      width: 129px;
+      height: 30px
+  }
+  
+  #header-2015>.utility {
+      margin-bottom: 0;
+      width: 1%;
+      white-space: nowrap
+  }
+  
+  #str-container #header-2015>.utility a {
+      font-weight: normal
+  }
+  
+  #header-2015>.utility li {
+      display: table-cell;
+      line-height: 1
+  }
+  
+  #header-2015>.utility .btn-mysoftbank:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      background-image: url(https://cdn.softbank.jp/site/set/common/s/img/sprite-menu-rf2.png);
+      background-position: -27.5px 0px;
+      width: 25px;
+      height: 24px;
+      -webkit-background-size: 52.5px 50.5px;
+      background-size: 52.5px 50.5px;
+      background-repeat: no-repeat;
+      text-indent: -9999px;
+      overflow: hidden;
+      margin-right: auto;
+      margin-left: auto
+  }
+  
+  #header-2015>.utility .btn-shop:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      background-image: url(https://cdn.softbank.jp/site/set/common/s/img/sprite-menu-rf2.png);
+      background-position: 0px -26.5px;
+      width: 25px;
+      height: 24px;
+      -webkit-background-size: 52.5px 50.5px;
+      background-size: 52.5px 50.5px;
+      background-repeat: no-repeat;
+      text-indent: -9999px;
+      overflow: hidden;
+      margin-right: auto;
+      margin-left: auto
+  }
+  
+  #header-2015 .btn-menu-wrap {
+      margin-bottom: 0;
+      width: 1%;
+      line-height: 1;
+      white-space: nowrap
+  }
+  
+  #header-2015 .btn-menu-wrap span {
+      display: inline-block
+  }
+  
+  #header-2015 .btn-menu-wrap a {
+      font-weight: normal
+  }
+  
+  #header-2015 .btn-menu {
+      margin-right: 0
+  }
+  
+  #header-2015 .btn-menu:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 50%;
+      background-image: url(https://cdn.softbank.jp/site/set/common/s/img/sprite-menu-rf2.png);
+      background-position: 0px 0px;
+      width: 25px;
+      height: 24px;
+      -webkit-background-size: 52.5px 50.5px;
+      background-size: 52.5px 50.5px;
+      background-repeat: no-repeat;
+      text-indent: -9999px;
+      overflow: hidden;
+      margin-right: auto;
+      margin-left: auto;
+      right: 0;
+      left: 0
+  }
+  
+  .user-info {
+      display: table;
+      width: 100%;
+      padding: 9px 10px 5px;
+      border-bottom: 1px solid #d6d7d8;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      font-size: 11px
+  }
+  
+  .user-info .user-name a {
+      display: inline-block;
+      width: 9em;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      vertical-align: top
+  }
+  
+  .user-info .user-point {
+      text-align: right
+  }
+  
+  .user-info .user-point a {
+      display: inline-block;
+      position: relative;
+      padding-left: 16px
+  }
+  
+  .user-info .user-point a:before {
+      background-image: url(https://cdn.softbank.jp/site/set/common/s/img/sprite-menu.png);
+      background-position: -48px -12px;
+      width: 11px;
+      height: 11px;
+      -webkit-background-size: 60px 48px;
+      background-size: 60px 48px;
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 0;
+      margin-top: -5.5px
+  }
+  
+  .user-info .user-cart {
+      width: 80px;
+      text-align: right
+  }
+  
+  .user-info .user-cart a {
+      display: inline-block;
+      position: relative;
+      padding-left: 17px
+  }
+  
+  .user-info .user-cart a:before {
+      background-image: url(https://cdn.softbank.jp/site/set/common/s/img/sprite-menu.png);
+      background-position: -48px 0px;
+      width: 12px;
+      height: 12px;
+      -webkit-background-size: 60px 48px;
+      background-size: 60px 48px;
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 0;
+      margin-top: -6px
+  }
+  
+  #menu-2015 .menu-list-01>li.menu-list-mobile a,#menu-2015 .menu-list-01>li.menu-list-internet a,#menu-2015 .menu-list-01>li.menu-list-robot a,#menu-2015 .menu-list-01>li.menu-list-energy a,#menu-2015 .menu-list-01>li.menu-list-card a,#menu-2015 .menu-list-01>li.menu-list-lifestyle a,#menu-2015 .menu-list-01>li.menu-list-shop a,#menu-2015 .menu-list-01>li.menu-list-support a,#menu-2015 .menu-list-01>li.menu-list-aboutus a {
+      display: block;
+      position: relative;
+      padding-left: 50px;
+      font-weight: normal !important
+  }
+  
+  #menu-2015 .menu-list-01>li.menu-list-mobile a:after,#menu-2015 .menu-list-01>li.menu-list-internet a:after,#menu-2015 .menu-list-01>li.menu-list-robot a:after,#menu-2015 .menu-list-01>li.menu-list-energy a:after,#menu-2015 .menu-list-01>li.menu-list-card a:after,#menu-2015 .menu-list-01>li.menu-list-lifestyle a:after,#menu-2015 .menu-list-01>li.menu-list-shop a:after,#menu-2015 .menu-list-01>li.menu-list-support a:after,#menu-2015 .menu-list-01>li.menu-list-aboutus a:after {
+      content: "";
+      margin-top: auto;
+      margin-bottom: auto;
+      position: absolute;
+      left: 20px;
+      top: 0;
+      bottom: 0
+  }
+  
+  #menu-2015 {
+      padding-bottom: 8px;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      z-index: 100;
+      background-color: #fff
+  }
+  
+  #menu-2015 a {
+      font-weight: normal
+  }
+  
+  #menu-2015 a {
+      font-weight: normal
+  }
+  
+  #menu-2015 .menu-header {
+      margin: 0 -10px 10px;
+      padding: 0;
+      border-bottom: 3px solid #758390;
+      height: 49px;
+      position: relative;
+      background-color: #fff
+  }
+  
+  #menu-2015 .menu-header h1 {
+      position: absolute;
+      top: 16px;
+      left: 10px;
+      width: 100px;
+      line-height: 1
+  }
+  
+  #menu-2015 .menu-header h1 img {
+      vertical-align: top
+  }
+  
+  #menu-2015 .menu-header .btn-close {
+      padding: 6px 10px;
+      border: 1px solid #364549;
+      border-radius: 3px;
+      color: #fff;
+      display: block;
+      position: absolute;
+      top: 7px;
+      right: 10px;
+      line-height: 1.55 !important;
+      background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #87929c), color-stop(50%, #505962), color-stop(50%, #3d454e), color-stop(100%, #3d454e));
+      background-image: -webkit-linear-gradient(#87929c, #505962 50%, #3d454e 50%, #3d454e);
+      background-image: -webkit-gradient(linear, left top, left bottom, from(#87929c), color-stop(50%, #505962), color-stop(50%, #3d454e), to(#3d454e));
+      background-image: linear-gradient(#87929c, #505962 50%, #3d454e 50%, #3d454e);
+      background-color: #87929c;
+      font-size: 13px;
+      font-weight: bold;
+      text-decoration: none
+  }
+  
+  #menu-2015 .menu-inner>*:last-child {
+      margin-bottom: 0
+  }
+  
+  #menu-2015 .menu-hdg {
+      padding-left: 15px;
+      font-size: 18px;
+      font-weight: bold;
+      line-height: 1.2;
+      position: relative
+  }
+  
+  #menu-2015 .menu-hdg-container {
+      margin-top: 38px;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      background-color: #fff;
+      text-align: left;
+      position: relative
+  }
+  
+  #menu-2015 .menu-list-01+.menu-hdg-container {
+      margin-top: 24px
+  }
+  
+  #menu-2015 .menu-inner>.menu-hdg-container:first-child {
+      margin-top: 18px
+  }
+  
+  #menu-2015 .menu-hdg-container>.menu-hdg,#menu-2015 .menu-hdg-container>.hdg-more {
+      padding: 0 0 0 20px;
+      display: table-cell;
+      vertical-align: middle
+  }
+  
+  #menu-2015 .menu-hdg-container>.hdg-more {
+      margin-bottom: 0;
+      position: absolute;
+      right: 20px;
+      top: 0;
+      text-align: right;
+      line-height: 1.2
+  }
+  
+  #menu-2015 .menu-hdg-container>.hdg-menu {
+      margin-bottom: 0;
+      width: 100%;
+      display: table;
+      position: absolute;
+      right: 20px;
+      top: 0;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      font-size: 0 !important;
+      text-align: right;
+      line-height: 1.2
+  }
+  
+  #menu-2015 .menu-hdg-container>.hdg-menu li {
+      display: inline-block;
+      font-size: 14px
+  }
+  
+  #menu-2015 .menu-hdg-container>.hdg-menu li:first-child {
+      margin-right: 10px;
+      padding-right: 10px;
+      border-right: 1px solid #d8dadc
+  }
+  
+  #menu-2015 .menu-hdg-container>.hdg-menu li a {
+      font-weight: normal !important
+  }
+  
+  #menu-2015 .menu-list {
+      border: 4px solid #60717f;
+      border-radius: 4px;
+      text-align: center;
+      font-size: 13px
+  }
+  
+  #menu-2015 .menu-list:after {
+      content: "";
+      display: block;
+      clear: both
+  }
+  
+  #menu-2015 .menu-list>li {
+      border-width: 0 0 1px 1px;
+      border-style: solid;
+      border-color: #ccd1d2;
+      width: 33.33333%;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fff), color-stop(100%, #eceff2));
+      background-image: -webkit-linear-gradient(#fff, #edeff2);
+      background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#edeff2));
+      background-image: linear-gradient(#fff, #edeff2);
+      background-color: #fff;
+      float: left
+  }
+  
+  #menu-2015 .menu-list>li>a {
+      padding: 42px 3px 7px;
+      border: 1px solid #fff;
+      display: block;
+      color: #333333;
+      font-weight: bold;
+      text-shadow: 1px 1px 0 #fff;
+      position: relative
+  }
+  
+  #menu-2015 .menu-list>li>a:before {
+      content: "";
+      display: block;
+      width: 35px;
+      height: 32px;
+      overflow: hidden;
+      position: absolute;
+      top: 8px;
+      left: 50%;
+      margin-left: -17px;
+      background-image: url("/site/set/common/s/img/sprite.png");
+      background-repeat: no-repeat;
+      background-position: 0 center;
+      -webkit-background-size: 2650px 63px;
+      background-size: 2650px 63px
+  }
+  
+  #menu-2015 .menu-list>li:nth-child(3n) {
+      border-right: 1px solid #ccd1d2
+  }
+  
+  #menu-2015 .menu-list>li.mobile>a:before {
+      background-position: -186px center
+  }
+  
+  #menu-2015 .menu-list>li.ybb {
+      letter-spacing: -0.2em
+  }
+  
+  #menu-2015 .menu-list>li.ybb>a:before {
+      background-position: -223px center
+  }
+  
+  #menu-2015 .menu-list>li.lifestyle {
+      letter-spacing: -0.2em
+  }
+  
+  #menu-2015 .menu-list>li.lifestyle>a:before {
+      background-position: -261px center
+  }
+  
+  #menu-2015 .menu-list>li.shop>a:before {
+      background-position: -298px center
+  }
+  
+  #menu-2015 .menu-list>li.support>a:before {
+      background-position: -333px center
+  }
+  
+  #menu-2015 .menu-list>li.corp>a:before {
+      background-position: -367px center
+  }
+  
+  #menu-2015 .menu-list>li.robot>a:before {
+      background-image: url("/site/set/common/s/img/sprite-02.png");
+      background-repeat: no-repeat;
+      background-position: 0 center;
+      -webkit-background-size: 1134px 63px;
+      background-size: 1134px 63px;
+      background-position: -305px center
+  }
+  
+  #menu-2015 .menu-list>li.campaign>a:before {
+      background-image: url("/site/set/common/s/img/sprite-02.png");
+      background-repeat: no-repeat;
+      background-position: 0 center;
+      -webkit-background-size: 1134px 63px;
+      background-size: 1134px 63px;
+      background-position: -345px center
+  }
+  
+  #menu-2015 .menu-list>li.news>a:before {
+      background-image: url("/site/set/common/s/img/sprite-02.png");
+      background-repeat: no-repeat;
+      background-position: 0 center;
+      -webkit-background-size: 1134px 63px;
+      background-size: 1134px 63px;
+      background-position: -385px center
+  }
+  
+  #menu-2015 .menu-list>li.home {
+      float: none;
+      width: auto;
+      font-size: 16px
+  }
+  
+  #menu-2015 .menu-list>li.home>a {
+      padding: 10px 5px 8px
+  }
+  
+  #menu-2015 .menu-list>li.home>a:before {
+      margin: -2px 0 0;
+      position: static;
+      display: inline-block;
+      top: auto;
+      left: auto;
+      vertical-align: middle;
+      background-position: -150px center
+  }
+  
+  #menu-2015 .menu-hdg-container+.menu-list-01 {
+      padding-top: 8px
+  }
+  
+  #menu-2015 .menu-list-01 {
+      margin-bottom: 15px
+  }
+  
+  #menu-2015 .menu-list-01 li[class^="menu-list-"] {
+      font-size: 16px
+  }
+  
+  #menu-2015 .menu-inner>ul:first-child {
+      margin: 18px 0 15px 0 !important
+  }
+  
+  #menu-2015 .menu-list-01>li:first-child>a {
+      margin-top: 0
+  }
+  
+  #menu-2015 .menu-list-01>li:last-child {
+      border-bottom: none
+  }
+  
+  #menu-2015 .menu-list-01>li>a {
+      padding: 14px 37px 14px 20px;
+      color: #333;
+      display: block;
+      text-decoration: none;
+      position: relative;
+      line-height: 1.2
+  }
+  
+  #menu-2015 .menu-list-01>li>a:before {
+      content: "";
+      margin-top: auto;
+      margin-bottom: auto;
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 22px;
+      bottom: 0;
+      border-bottom: 1px solid #5f6e7e;
+      border-right: 1px solid #5f6e7e;
+      width: 8px;
+      height: 8px;
+      -webkit-transform: rotate(-45deg);
+      transform: rotate(-45deg)
+  }
+  
+  #menu-2015 .menu-list-01>li.separate {
+      padding-top: 17px;
+      position: relative
+  }
+  
+  #menu-2015 .menu-list-01>li.separate:before {
+      content: '';
+      border-top: dotted 1px #cdd0d2;
+      display: block;
+      position: absolute;
+      top: 9px;
+      right: 20px;
+      left: 20px;
+      z-index: 10
+  }
+  
+  #menu-2015 .menu-list-01>li.mysb {
+      margin-top: 15px;
+      padding-right: 20px;
+      padding-left: 20px;
+      font-weight: bold
+  }
+  
+  #menu-2015 .menu-list-01>li.mysb:first-child {
+      margin-top: 0
+  }
+  
+  #menu-2015 .menu-list-01>li.mysb>b {
+      margin-bottom: 7px;
+      display: block;
+      font-size: 12px
+  }
+  
+  #menu-2015 .menu-list-01>li.mysb>a {
+      padding: 11px 10px 11px 50px;
+      border: solid 1px #c1c6cc;
+      border-radius: 4px;
+      min-height: 30px;
+      background-color: #fff;
+      color: #006693;
+      display: block;
+      position: relative
+  }
+  
+  #menu-2015 .menu-list-01>li.mysb>a:after {
+      content: "";
+      margin-top: auto;
+      margin-bottom: auto;
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 10px;
+      bottom: 0
+  }
+  
+  #menu-2015 .menu-list-01>li.mysb>a:after {
+      background-image: url(https://cdn.softbank.jp/site/set/common/s/img/sprite-side-rf2.png);
+      background-position: 0px 0px;
+      width: 30px;
+      height: 30px;
+      -webkit-background-size: 107.5px 75px;
+      background-size: 107.5px 75px;
+      background-repeat: no-repeat;
+      text-indent: -9999px;
+      overflow: hidden
+  }
+  
+  #menu-2015 .menu-list-01>li.mysb>a:before,#menu-2015 .menu-list-01>li.mysb>a .newwindowicon {
+      display: none
+  }
+  
+  #menu-2015 .menu-list-01>li.mysb span {
+      margin-bottom: 2px;
+      display: block;
+      color: #333;
+      font-size: 10px;
+      font-weight: normal
+  }
+  
+  #menu-2015 .menu-list-01>li.toggle-container .toggle-more {
+      margin: 0;
+      padding: 0 4px;
+      background-color: #60717f;
+      font-size: 14px
+  }
+  
+  #menu-2015 .menu-list-01>li.toggle-container .toggle-more>li {
+      padding: 0 10px;
+      background-color: #f7f8f9
+  }
+  
+  #menu-2015 .menu-list-01>li.toggle-container .toggle-more>li>a {
+      padding: 10px 0;
+      display: block;
+      border-top: 1px dotted #abb3b8
+  }
+  
+  #menu-2015 .menu-list-01>li.toggle-container .toggle-more>li:first-child {
+      border-top: 2px solid #ccd1d2
+  }
+  
+  #menu-2015 .menu-list-01>li.toggle-container .toggle-more>li:first-child>a {
+      border-top: none
+  }
+  
+  #menu-2015 .menu-list-01>li.toggle-container .toggle-more>li:last-child {
+      border-bottom: 1px solid #ccd1d2
+  }
+  
+  #menu-2015 .menu-list-01>li.toggle-container.available {
+      overflow: hidden
+  }
+  
+  #menu-2015 .menu-list-01>li.toggle-container.available .toggle-more {
+      height: 0
+  }
+  
+  #menu-2015 .menu-list-01>li.toggle-container.available.open>.toggle-hook:before {
+      -webkit-transform: rotate(45deg);
+      transform: rotate(45deg)
+  }
+  
+  #menu-2015 .menu-list-01>li.toggle-container.available.open .toggle-more {
+      display: block
+  }
+  
+  #menu-2015 .menu-list-01>li.bnr_iocn {
+      margin-right: 20px;
+      margin-left: 20px;
+      border: solid 1px #c1c6cc;
+      border-radius: 4px;
+      font-size: 12px
+  }
+  
+  #menu-2015 .menu-list-01>li.bnr_iocn img {
+      max-width: 57px;
+      margin-right: 6px;
+      float: left
+  }
+  
+  #menu-2015 .menu-list-01>li.bnr_iocn a {
+      padding: 10px;
+      min-height: 52px;
+      color: #006693;
+      line-height: 1.33333
+  }
+  
+  #menu-2015 .menu-list-01>li.bnr_iocn a:before {
+      display: none
+  }
+  
+  #menu-2015 .menu-list-01>li.menu-list-aboutus a:after,#menu-2015 .menu-list-01>li.menu-list-card a:after,#menu-2015 .menu-list-01>li.menu-list-energy a:after,#menu-2015 .menu-list-01>li.menu-list-internet a:after,#menu-2015 .menu-list-01>li.menu-list-lifestyle a:after,#menu-2015 .menu-list-01>li.menu-list-mobile a:after,#menu-2015 .menu-list-01>li.menu-list-robot a:after,#menu-2015 .menu-list-01>li.menu-list-shop a:after,#menu-2015 .menu-list-01>li.menu-list-support a:after {
+      background-image: url(https://cdn.softbank.jp/site/set/common/s/img/sprite-side-rf2.png);
+      background-position: -22.5px -55px;
+      width: 20px;
+      height: 20px;
+      -webkit-background-size: 107.5px 75px;
+      background-size: 107.5px 75px;
+      background-repeat: no-repeat;
+      text-indent: -9999px;
+      overflow: hidden
+  }
+  
+  #menu-2015 .menu-list-01>li.menu-list-mobile a:after {
+      background-position: -22.5px -55px
+  }
+  
+  #menu-2015 .menu-list-01>li.menu-list-internet a:after {
+      background-position: -87.5px -22.5px
+  }
+  
+  #menu-2015 .menu-list-01>li.menu-list-robot a:after {
+      background-position: -45px -55px
+  }
+  
+  #menu-2015 .menu-list-01>li.menu-list-energy a:after {
+      background-position: -65px 0px
+  }
+  
+  #menu-2015 .menu-list-01>li.menu-list-card a:after {
+      background-position: -22.5px -32.5px
+  }
+  
+  #menu-2015 .menu-list-01>li.menu-list-lifestyle a:after {
+      background-position: 0px -55px
+  }
+  
+  #menu-2015 .menu-list-01>li.menu-list-shop a:after {
+      background-position: -87.5px 0px
+  }
+  
+  #menu-2015 .menu-list-01>li.menu-list-support a:after {
+      background-position: -65px -22.5px
+  }
+  
+  #menu-2015 .menu-list-01>li.menu-list-aboutus a:after {
+      background-position: 0px -32.5px
+  }
+  
+  #menu-2015 .menu-list-01.branch {
+      font-size: 16px
+  }
+  
+  #menu-2015 .menu-list-01.branch>li>a {
+      padding-left: 50px;
+      position: relative
+  }
+  
+  #menu-2015 .menu-list-01.branch>li>a:before {
+      border-color: #7f7f7f
+  }
+  
+  #menu-2015 .menu-list-01.branch>li>a:after {
+      content: "";
+      display: block;
+      width: 25px;
+      height: 36px;
+      overflow: hidden;
+      position: absolute;
+      top: 50%;
+      left: 13px;
+      margin-top: -18px
+  }
+  
+  #menu-2015 .menu-hdg-container+.menu-list,#menu-2015 .menu-hdg+.menu-list,#menu-2015 .menu-hdg-container+.menu-list-01,#menu-2015 .menu-hdg+.menu-list-01 {
+      margin-top: 0;
+      border-top: none;
+      border-top-left-radius: 0;
+      border-top-right-radius: 0
+  }
+  
+  #menu-2015 .menu-bnr-list {
+      margin-bottom: 15px;
+      padding-right: 20px;
+      padding-left: 20px;
+      text-align: center
+  }
+  
+  #menu-2015 .menu-bnr-list>li {
+      margin-top: 15px
+  }
+  
+  #menu-2015 .menu-bnr-list>li:first-child {
+      margin-top: 0
+  }
+  
+  #menu-2015 .menu-bnr-list>li>a {
+      display: block;
+      text-align: center
+  }
+  
+  #menu-2015 .menu-bnr-list>li.bnr_setting>a {
+      border: solid 1px #c1c6cc;
+      background: url(/mobile/set/common/s/img/bnr/bg_bnr_setting.png)
+  }
+  
+  #menu-2015 .menu-bnr-list>li.bnr_setting img {
+      width: 292px
+  }
+  
+  #menu-2015 .menu-bnr-list>li.bnr_wifi>a {
+      border: solid 1px #c1c6cc;
+      background: url(/mobile/set/common/s/img/bnr/bg-bnr-wifi-android.png);
+      -webkit-background-size: 1px 85px;
+      background-size: 1px 85px
+  }
+  
+  #menu-2015 .menu-bnr-list>li.bnr_wifi img {
+      width: 292px
+  }
+  
+  #menu-2015 .newwindowicon,#menu-2015 .pdficon,#menu-2015 .mailicon,#menu-2015 .wmvicon,#menu-2015 .rssicon {
+      margin: 3px 0 0 5px;
+      width: 14px;
+      vertical-align: top
+  }
+  
+  #menu-2015 .newwindowicon {
+      width: 17px
+  }
+  
+  .menu-site-search-2015 {
+      border-bottom: solid 1px #d8dadc;
+      position: relative;
+      width: 100%;
+      padding: 10px 60px 10px 20px;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box
+  }
+  
+  .menu-site-search-2015 form {
+      padding-right: 40px;
+      border: 1px solid #d8dadc;
+      border-radius: 4px;
+      position: relative
+  }
+  
+  .menu-site-search-2015 input[type="text"] {
+      padding: 5px;
+      border: none;
+      border-top-left-radius: 4px;
+      border-bottom-left-radius: 4px;
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      width: 100%;
+      height: 38px;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      background-color: #fff
+  }
+  
+  .menu-site-search-2015 button {
+      padding: 6px 15px;
+      border: none;
+      border-top-right-radius: 4px;
+      border-bottom-right-radius: 4px;
+      width: 40px;
+      height: 38px;
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      background-image: url("/site/set/common/s/img/icon-search-rf2.png");
+      background-color: #e6e8eb;
+      -webkit-background-size: 17px 18px;
+      background-size: 17px 18px;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      vertical-align: top;
+      font-weight: bold;
+      text-indent: -9999px;
+      overflow: hidden
+  }
+  
+  .menu-site-search-2015 .btn-close {
+      display: block;
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      padding-top: 20px;
+      color: #5f6e7e;
+      font-size: 8px
+  }
+  
+  .menu-site-search-2015 .btn-close:before,.menu-site-search-2015 .btn-close:after {
+      content: "";
+      margin-right: auto;
+      margin-left: auto;
+      width: 2px;
+      height: 20px;
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      background-color: #5f6e7e
+  }
+  
+  .menu-site-search-2015 .btn-close:before {
+      -webkit-transform: rotate(-45deg);
+      transform: rotate(-45deg)
+  }
+  
+  .menu-site-search-2015 .btn-close:after {
+      -webkit-transform: rotate(225deg);
+      transform: rotate(225deg)
+  }
+  
+  #menu-2015+.menu-site-search-2015 {
+      display: none
+  }
+  
+  #menu-2015.open+.menu-site-search-2015 {
+      display: block;
+      z-index: 101
+  }
+  
+  [lang="en"] #header-2015>.utility .btn-login {
+      margin-right: 12px
+  }
+  
+  [lang="en"] .footer-menu li.accessory {
+      letter-spacing: normal
+  }
+  
+  [lang="en"] .menu-site-search-2015 input[type="text"] {
+      width: 66%
+  }
+  
+  [lang="en"] #menu-2015 .menu-bnr-list>li.bnr_wifi>a {
+      border: solid 1px #c1c6cc;
+      background: url(/en/site/set/common/s/img/bnr/bg-bnr-wifi.png);
+      -webkit-background-size: 1px 85px;
+      background-size: 1px 85px
+  }
+  
+  #footer {
+      border-top: none;
+      background-color: #f4f5f6;
+      font-size: 14px
+  }
+  
+  #footer .footer-nav {
+      margin: 0;
+  }
+  
+  #str-container #footer .footer-nav {
+      margin: 20px 0 0
+  }
+  
+  #footer .footer-nav .footer-nav-hdg {
+      padding: 22px 20px 10px;
+      background-color: #e6e8eb;
+      line-height: 1.2;
+      text-align: left
+  }
+  
+  #str-container #footer .footer-nav .footer-nav-hdg {
+      padding: 22px 20px 10px;
+      border-top: none;
+      background-color: #e6e8eb
+  }
+  
+  #footer .footer-nav .footer-nav-hdg h1 {
+      font-weight: bold;
+      font-size: 18px
+  }
+  
+  #str-container #footer .footer-nav .footer-nav-hdg h1 {
+      font-size: 18px
+  }
+  
+  #footer .footer-nav .footer-nav-hdg .footer-caption {
+      margin: 7px 0 0;
+      padding-bottom: 17px;
+      border-bottom: solid 1px #d8dadc;
+      font-size: 10px
+  }
+  
+  html[lang="en"] #footer .footer-nav .footer-nav-hdg .footer-caption {
+      padding-bottom: 22px
+  }
+  
+  #str-container #footer .footer-nav .footer-nav-hdg .footer-caption {
+      margin: 7px 0 0
+  }
+  
+  #footer .footer-nav .footer-nav-list {
+      margin: 0;
+      padding-right: 20px;
+      padding-left: 20px;
+      background-color: #e6e8eb
+  }
+  
+  #str-container #footer .footer-nav .footer-nav-list {
+      border: none;
+      background-color: #e6e8eb
+  }
+  
+  #str-container #footer .footer-nav .footer-nav-list+.footer-nav-list {
+      margin-top: 0
+  }
+  
+  #footer .footer-nav .footer-nav-list:after {
+      content: "";
+      display: block;
+      clear: both
+  }
+  
+  #footer .footer-nav .footer-nav-list>li {
+      float: left;
+      width: 50%;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box
+  }
+  
+  #footer .footer-nav .footer-nav-list>li:nth-child(odd) {
+      clear: left
+  }
+  
+  #footer .footer-nav .footer-nav-list>li:nth-child(even) {
+      padding-left: 15px
+  }
+  
+  #str-container #footer .footer-nav .footer-nav-list>li {
+      margin-bottom: 0;
+      border: none
+  }
+  
+  #footer .footer-nav .footer-nav-list.wide>li {
+      float: none;
+      width: 100%
+  }
+  
+  #footer .footer-nav .footer-nav-list>li a {
+      padding: 10px 13px 10px 0;
+      color: #333;
+      display: block;
+      position: relative;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-align-items: center;
+      -webkit-box-align: center;
+      align-items: center;
+      line-height: 1.28571
+  }
+  
+  #footer .footer-nav .footer-nav-list>li:nth-child(odd) a {
+      padding-right: 28px
+  }
+  
+  #str-container #footer .footer-nav .footer-nav-list>li a {
+      padding: 10px 13px 10px 0;
+      display: block;
+      font-weight: normal
+  }
+  
+  #str-container #footer .footer-nav .footer-nav-list>li:nth-child(odd) a {
+      padding-right: 28px
+  }
+  
+  #str-container #footer .footer-nav .footer-nav-list>li a:before {
+      content: "";
+      margin-top: auto;
+      margin-bottom: auto;
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 2px;
+      bottom: 0;
+      border-right: 1px solid #5f6e7e;
+      border-bottom: 1px solid #5f6e7e;
+      width: 8px;
+      height: 8px;
+      -webkit-transform: rotate(-45deg);
+      transform: rotate(-45deg)
+  }
+  
+  #str-container #footer .footer-nav .footer-nav-list>li:nth-child(odd) a:before {
+      right: 17px
+  }
+  
+  #str-container #footer .footer-nav .footer-nav-list.wide>li:nth-child(odd) a:before {
+      right: 2px
+  }
+  
+  #str-container #footer .footer-nav .footer-nav-list>li a span {
+      display: block;
+      -webkit-align-items: stretch;
+      -webkit-box-align: stretch;
+      align-items: stretch
+  }
+  
+  #footer .footer-nav .footer-nav-list>li .caption {
+      display: block;
+      line-height: 1;
+      -webkit-align-items: stretch;
+      -webkit-box-align: stretch;
+      align-items: stretch
+  }
+  
+  #footer .footer-nav .footer-sup {
+      margin: 0;
+      padding: 10px 20px 30px;
+      background-color: #e6e8eb;
+      width: 100%;
+      display: table;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      font-size: 0 !important;
+      text-align: center;
+      text-decoration: none
+  }
+  
+  #str-container #footer .footer-nav .footer-sup {
+      padding: 10px 20px 30px;
+      border-bottom: none;
+      background-color: #e6e8eb;
+      letter-spacing: inherit
+  }
+  
+  #footer .footer-nav .footer-nav-hdg+.footer-sup {
+      padding-top: 0
+  }
+  
+  #footer .footer-nav .footer-sup>li {
+      margin: 10px 0 0 -1px;
+      display: inline-block;
+      position: relative;
+      font-size: 10px;
+      line-height: 1
+  }
+  
+  #footer .footer-nav .footer-sup>li:before,#footer .footer-nav .footer-sup>li:after {
+      content: '';
+      width: 1px;
+      height: 10px;
+      display: block;
+      position: absolute;
+      top: 1px;
+      background-color: #d8dadc
+  }
+  
+  #footer .footer-nav .footer-sup>li:before {
+      left: 0
+  }
+  
+  #footer .footer-nav .footer-sup>li:after {
+      right: 0
+  }
+  
+  #str-container #footer .footer-nav .footer-sup>li {
+      margin: 10px 0 0 -1px;
+      border: none
+  }
+  
+  #footer .footer-nav .footer-sup>li a {
+      padding: 0 11px;
+      display: block;
+      text-decoration: none
+  }
+  
+  #str-container #footer .footer-nav .footer-sup>li a {
+      padding: 0 11px
+  }
+  
+  #footer .footer-nav-list-01 {
+      margin-bottom: 0;
+      padding: 15px 20px 12px;
+      background-color: #fff;
+      overflow: hidden;
+      font-size: 10px
+  }
+  
+  #footer .footer-nav-list-01>ul {
+      width: 280px;
+      margin: 0 auto
+  }
+  
+  #str-container #footer .footer-nav-list-01 {
+      margin: 0
+  }
+  
+  #footer .footer-nav-list-01:after {
+      content: "";
+      display: block;
+      clear: both
+  }
+  
+  #footer .footer-nav-list-01 ul li {
+      margin-left: 35px;
+      margin-bottom: 15px;
+      float: left;
+      width: 70px;
+      text-align: center;
+      font-weight: bold;
+      white-space: nowrap
+  }
+  
+  #footer .footer-nav-list-01 ul li:nth-child(3n+1) {
+      margin-left: 0;
+      clear: left
+  }
+  
+  #str-container #footer .footer-nav-list-01 li {
+      padding: 0
+  }
+  
+  #footer .footer-nav-list-01 li a {
+      padding-top: 75px;
+      color: #5f6e7e;
+      display: block;
+      position: relative
+  }
+  
+  #str-container #footer .footer-nav-list-01 li a {
+      padding-right: 0;
+      padding-bottom: 0;
+      padding-left: 0;
+      border: none;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      background: none;
+      text-shadow: none;
+      font-weight: normal
+  }
+  
+  #footer .footer-nav-list-01 li>a:before {
+      content: "";
+      margin-right: auto;
+      margin-left: auto;
+      width: 70px;
+      height: 70px;
+      display: block;
+      overflow: hidden;
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      background-color: #fff
+  }
+  
+  #footer .footer-nav-list-01 li>a:before {
+      background-image: url(https://cdn.softbank.jp/site/set/common/s/img/sprite-rf2.png?20170907);
+      background-position: -72px -136px;
+      width: 70px;
+      height: 70px;
+      -webkit-background-size: 413px 380px;
+      background-size: 413px 380px;
+      background-repeat: no-repeat;
+      text-indent: -9999px;
+      overflow: hidden
+  }
+  
+  #footer .footer-nav-list-01 li.mobile>a:before {
+      background-position: -72px -136px
+  }
+  
+  #footer .footer-nav-list-01 li.ybb>a:before {
+      background-position: 0px -208px
+  }
+  
+  #footer .footer-nav-list-01 li.internet>a:before {
+      background-position: 0px -208px
+  }
+  
+  #footer .footer-nav-list-01 li.robot>a:before {
+      background-position: -144px -136px
+  }
+  
+  #footer .footer-nav-list-01 li.energy>a:before {
+      background-position: -167px 0px
+  }
+  
+  #footer .footer-nav-list-01 li.shop>a:before {
+      background-position: -239px 0px
+  }
+  
+  #footer .footer-nav-list-01 li.card>a:before {
+      background-position: -72px -208px
+  }
+  
+  #footer .footer-nav-list-01 li.biz>a:before {
+      background-position: 0px -136px
+  }
+  
+  #footer .footer-nav-list-01 li.support>a:before {
+      background-position: -239px -72px
+  }
+  
+  #footer .footer-nav-list-01 li.corp>a:before {
+      background-position: -144px -208px
+  }
+  
+  #footer .footer-hdg-l2 {
+      padding: 0 20px 14px;
+      background: #fff;
+      color: #000;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 1.25
+  }
+  
+  #footer .footer-nav+.footer-hdg-l2 {
+      padding-top: 30px
+  }
+  
+  #str-container #footer .footer-hdg-l2 {
+      margin: 0;
+      padding: 0 20px 13px;
+      border: none;
+      background: #fff;
+      color: #000
+  }
+  
+  #str-container #footer .footer-nav+.footer-hdg-l2 {
+      padding-top: 30px
+  }
+  
+  #str-container #footer .footer-hdg-l2:before {
+      display: none
+  }
+  
+  #footer .footer-sns {
+      display: table;
+      table-layout: fixed;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      width: 100%;
+      margin: 0;
+      padding: 0 10px 15px 10px;
+      background-color: #fff;
+      text-align: center
+  }
+  
+  #str-container #footer .footer-sns {
+      margin: 0
+  }
+  
+  #footer .footer-sns>li {
+      display: table-cell;
+      width: auto;
+      margin: 0
+  }
+  
+  #str-container #footer .footer-sns>li {
+      display: table-cell;
+      float: none;
+      margin: 0;
+      width: auto !important
+  }
+  
+  #str-container #footer .footer-sns:after {
+      display: none
+  }
+  
+  html[lang="en"] #str-container #footer .footer-sns>li {
+      width: auto
+  }
+  
+  html[lang="en"] #str-container #footer .footer-sns>li.ustream {
+      width: auto
+  }
+  
+  #footer .footer-sns>li>a {
+      display: inline-block
+  }
+  
+  #footer .footer-sns>li img {
+      height: 40px
+  }
+  
+  #str-container #footer .footer-sns>li img {
+      width: auto !important
+  }
+  
+  #footer .footer-sns+p {
+      margin-bottom: 0;
+      padding-bottom: 30px;
+      background-color: #fff;
+      padding-right: 20px !important;
+      padding-left: 20px !important
+  }
+  
+  #footer .footer-sns+p .btn {
+      padding: 10px 10px 9px;
+      border: 1px solid #c1c6cc;
+      border-radius: 4px;
+      background: none;
+      color: #006693;
+      display: block;
+      width: 100%;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      text-align: center;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 1.1
+  }
+  
+  #footer .footer-nav-more {
+      margin: 0 10px 10px;
+      border-top: 5px solid #f6f6f6;
+      min-height: 45px;
+      position: relative
+  }
+  
+  #footer .footer-nav-more:before {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 1px;
+      overflow: hidden;
+      position: absolute;
+      top: -5px;
+      left: 0
+  }
+  
+  #footer .footer-nav-more:before {
+      background-color: #e6e6e6
+  }
+  
+  #footer .footer-nav-more>a {
+      margin-top: -5px;
+      border-width: 0 4px 4px 4px;
+      border-style: solid;
+      border-color: #f6f6f6;
+      border-bottom-left-radius: 4px;
+      border-bottom-right-radius: 4px;
+      display: block;
+      top: 0;
+      right: 0;
+      position: relative;
+      position: absolute
+  }
+  
+  #footer .footer-nav-more>a:before {
+      content: "";
+      display: block;
+      width: 200%;
+      height: 1px;
+      overflow: hidden;
+      position: absolute;
+      top: 0;
+      right: -4px
+  }
+  
+  #footer .footer-nav-more>a:before {
+      background-color: #e6e6e6
+  }
+  
+  #footer .footer-nav-more>a>span {
+      padding: 9px 16px 11px;
+      border-width: 0 1px 1px 1px;
+      border-style: solid;
+      border-color: #e6e6e6;
+      border-bottom-left-radius: 2px;
+      border-bottom-right-radius: 2px;
+      display: block;
+      position: relative;
+      z-index: 2;
+      -webkit-box-shadow: 2px 2px 0 #fff inset, -2px -2px 0 #fff inset;
+      box-shadow: 2px 2px 0 #fff inset, -2px -2px 0 #fff inset;
+      background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fff), color-stop(100%, #f1f1f1));
+      background-image: -webkit-linear-gradient(#fff, #f1f1f1);
+      background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f1f1f1));
+      background-image: linear-gradient(#fff, #f1f1f1);
+      background-color: #f1f1f1;
+      background-color: #fff
+  }
+  
+  #footer .footer-site-search {
+      margin: 30px 20px 20px;
+      padding-right: 40px;
+      border: 1px solid #d8dadc;
+      border-radius: 4px;
+      position: relative
+  }
+  
+  #str-container #footer .footer-site-search {
+      margin: 30px 20px 20px;
+      padding-top: 0;
+      padding-bottom: 0;
+      padding-right: 40px;
+      padding-left: 0;
+      background: none;
+      text-align: inherit
+  }
+  
+  #str-container #footer .footer-site-search form {
+      width: auto;
+      display: block;
+      position: static
+  }
+  
+  #str-container #footer .footer-site-search input[type="text"] {
+      margin-right: 0 !important;
+      padding: 5px;
+      border: none;
+      border-top-left-radius: 4px;
+      border-bottom-left-radius: 4px;
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      width: 100%;
+      height: 38px;
+      background: #fff;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box
+  }
+  
+  #str-container #footer .footer-site-search button {
+      padding: 6px 15px;
+      border: none;
+      border-top-right-radius: 4px;
+      border-bottom-right-radius: 4px;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      width: 40px;
+      height: 38px;
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      background-image: url("/site/set/common/s/img/icon-search-rf2.png");
+      background-color: #e6e8eb;
+      -webkit-background-size: 17px 18px;
+      background-size: 17px 18px;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      vertical-align: top;
+      font-weight: bold;
+      text-indent: -9999px;
+      overflow: hidden
+  }
+  
+  #footer .ua-switcher {
+      margin: 0 20px;
+      font-size: 12px;
+      text-align: center
+  }
+  
+  #str-container #footer .ua-switcher {
+      margin: 0 20px;
+      width: auto;
+      display: block;
+      background: none
+  }
+  
+  #footer .ua-switcher>dt {
+      margin-bottom: 8px;
+      line-height: 1
+  }
+  
+  #str-container #footer .ua-switcher>dt {
+      padding: 0;
+      width: auto;
+      display: block;
+      vertical-align: inherit
+  }
+  
+  #footer .ua-switcher>dd {
+      margin-bottom: 0;
+      border-radius: 36px;
+      width: 100%;
+      position: relative;
+      background: #fff
+  }
+  
+  #footer .ua-switcher>dd:after {
+      content: '';
+      border: solid 1px #d8dadc;
+      border-radius: 36px;
+      width: 100%;
+      height: 36px;
+      display: block;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 1
+  }
+  
+  #str-container #footer .ua-switcher>dd {
+      padding: 0;
+      display: block;
+      vertical-align: inherit
+  }
+  
+  #footer .ua-switcher>dd ul {
+      margin-bottom: 0;
+      display: table;
+      width: 100%
+  }
+  
+  #str-container #footer .ua-switcher>dd ul {
+      border: none;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      font-size: 12px;
+      font-weight: normal
+  }
+  
+  #footer .ua-switcher>dd ul>li {
+      margin-bottom: 0;
+      border-radius: 36px;
+      width: 50%;
+      height: 36px;
+      display: table-cell;
+      text-align: center;
+      vertical-align: middle
+  }
+  
+  #str-container #footer .ua-switcher>dd ul>li {
+      padding: 0;
+      float: none;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      background: none;
+      text-shadow: none
+  }
+  
+  #footer .ua-switcher>dd ul>li:first-child {
+      position: relative;
+      z-index: 10;
+      background: #cccfd4;
+      color: #fff
+  }
+  
+  #str-container #footer .ua-switcher>dd ul>li:first-child {
+      border-top-left-radius: 36px;
+      border-bottom-left-radius: 36px;
+      background: #cccfd4
+  }
+  
+  #str-container #footer .ua-switcher>dd ul>li:last-child {
+      border-radius: 0
+  }
+  
+  #footer .ua-switcher>dd ul>li a {
+      margin-left: -5.35714%;
+      display: block;
+      position: relative;
+      z-index: 20
+  }
+  
+  #str-container #footer .ua-switcher>dd ul>li a {
+      margin-top: 0;
+      margin-right: 0;
+      margin-bottom: 0;
+      margin-left: -5.35714%;
+      padding: 0;
+      background: none;
+      font-weight: normal
+  }
+  
+  #str-container #footer .ua-switcher>dd ul>li a:before {
+      display: none
+  }
+  
+  #footer .footer-utility {
+      margin: 0;
+      padding: 10px 20px 30px;
+      width: 100%;
+      display: table;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      font-size: 0 !important;
+      text-align: center;
+      text-decoration: none
+  }
+  
+  #str-container #footer .footer-utility {
+      margin: 0;
+      padding: 10px 20px 30px;
+      letter-spacing: inherit
+  }
+  
+  #footer .footer-utility>li {
+      margin: 10px 0 0 -1px;
+      display: inline-block;
+      position: relative;
+      font-size: 10px;
+      line-height: 1
+  }
+  
+  #footer .footer-utility>li:before,#footer .footer-utility>li:after {
+      content: '';
+      width: 1px;
+      height: 10px;
+      display: block;
+      position: absolute;
+      top: 1px;
+      background-color: #d8dadc
+  }
+  
+  #footer .footer-utility>li:before {
+      left: 0
+  }
+  
+  #footer .footer-utility>li:after {
+      right: 0
+  }
+  
+  #str-container #footer .footer-utility>li {
+      margin: 10px 0 0 -1px;
+      border: none
+  }
+  
+  #footer .footer-utility>li a {
+      padding: 0 11px;
+      display: block;
+      text-decoration: none
+  }
+  
+  #str-container #footer .footer-utility>li a {
+      padding: 0 11px
+  }
+  
+  #str-container #footer .footer-nav-top,#str-container #footer .footer-nav-home {
+      margin: 0 20px;
+      padding-left: 17px;
+      display: inline-block;
+      position: relative;
+      font-size: 12px;
+      font-weight: normal;
+      line-height: 1;
+      text-decoration: none;
+      text-align: left
+  }
+  
+  #str-container #footer .footer-nav-top:before,#str-container #footer .footer-nav-home:before {
+      background-image: url(https://cdn.softbank.jp/site/set/common/s/img/sprite-rf2.png?20170907);
+      background-position: -221px -93px;
+      width: 12px;
+      height: 10px;
+      -webkit-background-size: 413px 380px;
+      background-size: 413px 380px;
+      background-repeat: no-repeat;
+      text-indent: -9999px;
+      overflow: hidden;
+      content: "";
+      padding: 0;
+      border: none;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      width: 12px;
+      height: 10px;
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: transparent
+  }
+  
+  #str-container #footer .footer-topic-path {
+      margin: 10px 20px 0;
+      font-size: 10px;
+      line-height: 1.1
+  }
+  
+  #footer .footer-topic-path a {
+      display: inline-block
+  }
+  
+  #str-container #footer .footer-topic-path a {
+      font-size: 10px;
+      font-weight: normal
+  }
+  
+  #str-container #footer #copyright {
+      margin: 15px 0 0;
+      padding: 10px;
+      height: auto;
+      background-color: #e6e8eb
+  }
+  
+  #str-container #footer #copyright.group {
+      padding-bottom: 8px
+  }
+  
+  #footer #copyright img {
+      margin-right: auto;
+      margin-left: auto;
+      width: 58px;
+      display: block
+  }
+  
+  #str-container #footer #copyright img {
+      width: 58px
+  }
+  
+  #footer #copyright.group img {
+      width: 95px
+  }
+  
+  #str-container #footer #copyright.group img {
+      width: 95px
+  }
+  
+  #str-container #footer .newwindowicon,#str-container #footer .pdficon,#str-container #footer .mailicon,#str-container #footer .wmvicon,#str-container #footer .rssicon {
+      margin: -2px 0 0 5px;
+      width: 14px;
+      vertical-align: top
+  }
+  
+  #footer .newwindowicon {
+      width: 17px
+  }
+  
+  .lyt-exception #footer {
+      margin-top: 20px
+  }
+  
+  .lyt-exception #footer .footer-site-search+#copyright {
+      margin-top: 0
+  }
+  
+  .lyt-campaign-01 #footer,.lyt-campaign-02 #footer,.lyt-campaign-03 #footer {
+      padding: 10px 10px 0;
+      border-top: 1px solid #d6d7d8
+  }
+  
+  .lyt-campaign-01 #footer #copyright,.lyt-campaign-02 #footer #copyright,.lyt-campaign-03 #footer #copyright {
+      margin: 10px -10px 0
+  }
+  
+  .lyt-campaign-01 #footer #copyright img[src$="copyright-sb.png"],.lyt-campaign-01 #footer #copyright img[src$="copyright-sb-white.png"],.lyt-campaign-02 #footer #copyright img[src$="copyright-sb.png"],.lyt-campaign-02 #footer #copyright img[src$="copyright-sb-white.png"],.lyt-campaign-03 #footer #copyright img[src$="copyright-sb.png"],.lyt-campaign-03 #footer #copyright img[src$="copyright-sb-white.png"] {
+      width: 111px
+  }
+  
+  .lyt-campaign-01 #footer #copyright img[src$="copyright-bb.png"],.lyt-campaign-01 #footer #copyright img[src$="copyright-bb-white.png"],.lyt-campaign-02 #footer #copyright img[src$="copyright-bb.png"],.lyt-campaign-02 #footer #copyright img[src$="copyright-bb-white.png"],.lyt-campaign-03 #footer #copyright img[src$="copyright-bb.png"],.lyt-campaign-03 #footer #copyright img[src$="copyright-bb-white.png"] {
+      width: 133px
+  }
+  
+  .lyt-campaign-01 #footer #copyright img[src$="copyright-mobile.png"],.lyt-campaign-01 #footer #copyright img[src$="copyright-mobile-white.png"],.lyt-campaign-02 #footer #copyright img[src$="copyright-mobile.png"],.lyt-campaign-02 #footer #copyright img[src$="copyright-mobile-white.png"],.lyt-campaign-03 #footer #copyright img[src$="copyright-mobile.png"],.lyt-campaign-03 #footer #copyright img[src$="copyright-mobile-white.png"] {
+      width: 161px
+  }
+  
+  .lyt-campaign-01 #footer #copyright img[src$="copyright-telecom.png"],.lyt-campaign-01 #footer #copyright img[src$="copyright-telecom-white.png"],.lyt-campaign-02 #footer #copyright img[src$="copyright-telecom.png"],.lyt-campaign-02 #footer #copyright img[src$="copyright-telecom-white.png"],.lyt-campaign-03 #footer #copyright img[src$="copyright-telecom.png"],.lyt-campaign-03 #footer #copyright img[src$="copyright-telecom-white.png"] {
+      width: 173px
+  }
+  
+  .lyt-campaign-03 #footer {
+      background-color: #000
+  }
+  
+  .lyt-campaign-03 #footer #copyright {
+      margin: 10px -10px 0;
+      background-color: #28292a
+  }
+  
+  #nav-top-area {
+      position: fixed;
+      opacity: 0.7;
+      display: block;
+      bottom: 30px;
+      right: 10px;
+      width: 40px;
+      height: 40px;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      -webkit-transition: 1.0s;
+      transition: 1.0s;
+      border-radius: 4px;
+      text-align: center;
+      text-indent: 100%;
+      overflow: hidden;
+      white-space: nowrap
+  }
+  
+  html #nav-top-area {
+      bottom: 30px;
+      right: 10px;
+      width: 40px;
+      height: 40px
+  }
+  
+  #nav-top-area.hide {
+      opacity: 0;
+      -webkit-transition: 0.5s;
+      transition: 0.5s;
+      pointer-events: none
+  }
+  
+  #nav-top-area.wait {
+      opacity: 0.3;
+      display: block;
+      -webkit-transition: 2.5s;
+      transition: 2.5s
+  }
+  
+  #nav-top-area.move {
+      opacity: 0.6;
+      display: block;
+      -webkit-transition: 0.1s;
+      transition: 0.1s
+  }
+  
+  #nav-top-area #nav-top {
+      position: relative;
+      width: 100%;
+      height: 100%
+  }
+  
+  #nav-top-area a#nav-top-btn {
+      text-decoration: none;
+      position: absolute;
+      display: block;
+      width: 100%;
+      height: 100%;
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box
+  }
+  
+  html #nav-top-area a#nav-top-btn:before {
+      background-image: url(https://cdn.softbank.jp/site/set/common/s/img/sprite-rf2.png?20170907);
+      background-position: -82px -70px;
+      width: 40px;
+      height: 40px;
+      -webkit-background-size: 413px 380px;
+      background-size: 413px 380px;
+      background-repeat: no-repeat;
+      text-indent: -9999px;
+      overflow: hidden;
+      position: absolute;
+      display: block;
+      content: "";
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      width: 40px;
+      height: 40px
+  }
+  
+  #nav-top-area a#nav-top-btn.ja {
+      font-size: 6px;
+      color: white;
+      font-weight: normal;
+      padding-top: 28px
+  }
+  
+  html #nav-top-area a#nav-top-btn.ja {
+      padding-top: 28px
+  }
+  
+  #nav-top-area a#nav-top-btn.en:before {
+      background-image: url(https://cdn.softbank.jp/site/set/common/s/img/sprite-rf2.png?20170907);
+      background-position: -124px -70px;
+      width: 40px;
+      height: 40px;
+      -webkit-background-size: 413px 380px;
+      background-size: 413px 380px;
+      background-repeat: no-repeat;
+      text-indent: -9999px;
+      overflow: hidden
+  }
+  
+  .footer-menu {
+      zoom:1}
+  
+  .footer-menu:after {
+      display: block;
+      clear: both;
+      content: ""
+  }
+  
+  .footer-menu {
+      margin-bottom: 0;
+      border-top: 1px solid #d8dadc;
+      border-bottom: 1px solid #d8dadc
+  }
+  
+  .footer-menu li {
+      float: left;
+      width: 25%;
+      border-right: 1px solid #D8DADC;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box
+  }
+  
+  .footer-menu li:first-child {
+      border-left: 1px solid #D8DADC
+  }
+  
+  .footer-menu li.cart a:before {
+      background-image: url(https://cdn.softbank.jp/site/set/common/s/img/sprite-footer-menu.png);
+      background-position: -33px 0px;
+      width: 30px;
+      height: 29px;
+      -webkit-background-size: 89px 58px;
+      background-size: 89px 58px;
+      top: 10px;
+      margin-left: -15px
+  }
+  
+  .footer-menu li.cart a span {
+      display: block;
+      position: absolute;
+      top: 5px;
+      right: 7px;
+      width: 20px;
+      height: 20px;
+      background-color: #e84441;
+      border-radius: 50%;
+      color: #fff;
+      font-size: 14px;
+      font-weight: normal;
+      line-height: 20px
+  }
+  
+  .footer-menu li.products a:before {
+      background-image: url(https://cdn.softbank.jp/site/set/common/s/img/sprite-footer-menu.png);
+      background-position: 0px -30px;
+      width: 28px;
+      height: 28px;
+      -webkit-background-size: 89px 58px;
+      background-size: 89px 58px;
+      top: 10px;
+      margin-left: -14px
+  }
+  
+  .footer-menu li.service a:before {
+      background-image: url(https://cdn.softbank.jp/site/set/common/s/img/sprite-footer-menu.png);
+      background-position: 0px 0px;
+      width: 33px;
+      height: 30px;
+      -webkit-background-size: 89px 58px;
+      background-size: 89px 58px;
+      top: 10px;
+      margin-left: -16.5px
+  }
+  
+  .footer-menu li.accessory {
+      letter-spacing: -0.1em
+  }
+  
+  .footer-menu li.accessory a:before {
+      background-image: url(https://cdn.softbank.jp/site/set/common/s/img/sprite-footer-menu.png);
+      background-position: -63px 0px;
+      width: 26px;
+      height: 30px;
+      -webkit-background-size: 89px 58px;
+      background-size: 89px 58px;
+      top: 10px;
+      margin-left: -13px
+  }
+  
+  .footer-user {
+      margin-top: 20px;
+      text-align: center
+  }
+  
+  .footer-menu li.cart a,.footer-menu li.products a,.footer-menu li.service a,.footer-menu li.accessory a {
+      position: relative;
+      display: block;
+      padding: 47px 0 5px;
+      text-align: center;
+      font-size: 12px;
+      color: #333
+  }
+  
+  .footer-menu li.cart a:before,.footer-menu li.products a:before,.footer-menu li.service a:before,.footer-menu li.accessory a:before {
+      content: "";
+      position: absolute;
+      left: 50%
+  }
+  
+  body>img[height="1"][width="1"] {
+      position: absolute;
+      top: -9999px;
+      left: -9999px
+  }
+  
+  .header-rf2017-ph1 {
+      position: relative;
+      z-index: 5;
+      width: 100%;
+      margin-bottom: 0;
+      padding: 0 10px;
+      height: 50px;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      font-size: 14px;
+      background: #fff;
+      border: none
+  }
+  
+  .header-rf2017-ph1:after {
+      content: "";
+      display: block;
+      clear: both
+  }
+  
+  .header-rf2017-ph1>.header-rf2017-ph1-logo {
+      padding-top: 15.5px;
+      float: left;
+      line-height: 1
+  }
+  
+  .header-rf2017-ph1>.header-rf2017-ph1-logo img {
+      width: 129px;
+      height: 19px;
+      line-height: 1
+  }
+  
+  .header-rf2017-ph1>.header-rf2017-ph1-logo.header-rf2017-ph1-logo-group img {
+      width: 129px;
+      height: 30px;
+      line-height: 1
+  }
+  
+  .header-rf2017-ph1>.header-rf2017-ph1-utility {
+      float: right
+  }
+  
+  .header-rf2017-ph1>.header-rf2017-ph1-utility:after {
+      content: "";
+      display: block;
+      clear: both
+  }
+  
+  .header-rf2017-ph1 .header-rf2017-ph1-nav {
+      float: left;
+      margin: 0;
+      margin-top: 8px
+  }
+  
+  .header-rf2017-ph1 .header-rf2017-ph1-list {
+      margin: 0
+  }
+  
+  .header-rf2017-ph1 .header-rf2017-ph1-list:after {
+      content: "";
+      display: block;
+      clear: both
+  }
+  
+  .header-rf2017-ph1 .header-rf2017-ph1-list li {
+      float: left;
+      font-weight: normal;
+      font-size: 8px;
+      text-align: center;
+      line-height: 1
+  }
+  
+  .header-rf2017-ph1 .header-rf2017-ph1-list a {
+      display: block;
+      padding-top: 25px;
+      color: #5f6e7e;
+      font-weight: normal;
+      font-size: 8px;
+      line-height: 1;
+      text-decoration: none
+  }
+  
+  .header-rf2017-ph1 .header-rf2017-ph1-list .header-rf2017-ph1-item-mysoftbank {
+      position: relative
+  }
+  
+  .header-rf2017-ph1 .header-rf2017-ph1-list .header-rf2017-ph1-item-mysoftbank:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      background-image: url(https://cdn.softbank.jp/site/set/common/s/img/sprite-rf2017-ph1.png?20171019);
+      background-position: -72px -126px;
+      width: 24px;
+      height: 24px;
+      -webkit-background-size: 211.5px 183px;
+      background-size: 211.5px 183px;
+      background-repeat: no-repeat;
+      text-indent: -9999px;
+      overflow: hidden;
+      margin-right: auto;
+      margin-left: auto
+  }
+  
+  .header-rf2017-ph1 .header-rf2017-ph1-list .header-rf2017-ph1-item-shop {
+      position: relative;
+      margin-left: 12px;
+      letter-spacing: -0.1em
+  }
+  
+  html[lang="en"] .header-rf2017-ph1 .header-rf2017-ph1-list .header-rf2017-ph1-item-shop {
+      margin-left: 14px;
+      letter-spacing: 0
+  }
+  
+  .header-rf2017-ph1 .header-rf2017-ph1-list .header-rf2017-ph1-item-shop:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      background-image: url(https://cdn.softbank.jp/site/set/common/s/img/sprite-rf2017-ph1.png?20171019);
+      background-position: -98px -126px;
+      width: 24px;
+      height: 24px;
+      -webkit-background-size: 211.5px 183px;
+      background-size: 211.5px 183px;
+      background-repeat: no-repeat;
+      text-indent: -9999px;
+      overflow: hidden;
+      margin-right: auto;
+      margin-left: auto
+  }
+  
+  .header-rf2017-ph1 .header-rf2017-ph1-menu-button {
+      display: block;
+      float: left;
+      position: relative;
+      margin-top: 8px;
+      padding-top: 25px;
+      margin-left: 13px;
+      font-size: 8px;
+      font-weight: normal;
+      color: #5f6e7e;
+      line-height: 1;
+      letter-spacing: -0.1em
+  }
+  
+  [lang="en"] .header-rf2017-ph1 .header-rf2017-ph1-menu-button {
+      margin-left: 19px;
+      letter-spacing: 0
+  }
+  
+  .header-rf2017-ph1 .header-rf2017-ph1-menu-button:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 50%;
+      background-image: url(https://cdn.softbank.jp/site/set/common/s/img/sprite-rf2017-ph1.png?20171019);
+      background-position: -124px -126px;
+      width: 24px;
+      height: 24px;
+      -webkit-background-size: 211.5px 183px;
+      background-size: 211.5px 183px;
+      background-repeat: no-repeat;
+      text-indent: -9999px;
+      overflow: hidden;
+      margin-right: auto;
+      margin-left: auto;
+      right: 0;
+      left: 0
+  }
+  
+  @media screen and (max-width: 319px) {
+      .header-rf2017-ph1>.header-rf2017-ph1-logo img {
+          width:101px;
+          height: auto
+      }
+  
+      .header-rf2017-ph1>.header-rf2017-ph1-logo.header-rf2017-ph1-logo-group img {
+          width: 101px;
+          height: auto
+      }
+  
+      .header-rf2017-ph1 .header-rf2017-ph1-list>li:before {
+          display: none
+      }
+  
+      .header-rf2017-ph1 .header-rf2017-ph1-list a {
+          text-indent: 100%;
+          white-space: nowrap;
+          overflow: hidden;
+          padding-top: 0;
+          content: ""
+      }
+  
+      .header-rf2017-ph1 .header-rf2017-ph1-list .header-rf2017-ph1-item-mysoftbank a {
+          background-image: url(https://cdn.softbank.jp/site/set/common/s/img/sprite-rf2017-ph1.png?20171019);
+          background-position: 0px -126px;
+          width: 43px;
+          height: 35px;
+          -webkit-background-size: 211.5px 183px;
+          background-size: 211.5px 183px;
+          background-repeat: no-repeat;
+          text-indent: -9999px;
+          overflow: hidden
+      }
+  
+      .header-rf2017-ph1 .header-rf2017-ph1-list .header-rf2017-ph1-item-shop {
+          margin-left: 7px
+      }
+  
+      .header-rf2017-ph1 .header-rf2017-ph1-list .header-rf2017-ph1-item-shop a {
+          background-image: url(https://cdn.softbank.jp/site/set/common/s/img/sprite-rf2017-ph1.png?20171019);
+          background-position: -45px -126px;
+          width: 25px;
+          height: 35px;
+          -webkit-background-size: 211.5px 183px;
+          background-size: 211.5px 183px;
+          background-repeat: no-repeat;
+          text-indent: -9999px;
+          overflow: hidden
+      }
+  
+      .header-rf2017-ph1 .header-rf2017-ph1-menu-button {
+          text-indent: 100%;
+          white-space: nowrap;
+          overflow: hidden;
+          width: 27px;
+          margin-left: 7px;
+          padding-top: 0;
+          background-image: url(https://cdn.softbank.jp/site/set/common/s/img/sprite-rf2017-ph1.png?20171019);
+          background-position: -126px -84px;
+          width: 26.5px;
+          height: 35px;
+          -webkit-background-size: 211.5px 183px;
+          background-size: 211.5px 183px;
+          background-repeat: no-repeat;
+          text-indent: -9999px;
+          overflow: hidden
+      }
+  
+      .header-rf2017-ph1 .header-rf2017-ph1-menu-button:before {
+          display: none
+      }
+  
+      html[lang="en"] .header-rf2017-ph1 .header-rf2017-ph1-list .header-rf2017-ph1-item-mysoftbank a {
+          background-image: url(/en/site/set/common/s/img/sprite-rf2017-ph1.png?20171019);
+          background-position: 0px 0px;
+          width: 43px;
+          height: 35px;
+          -webkit-background-size: 98.5px 35px;
+          background-size: 98.5px 35px;
+          background-repeat: no-repeat;
+          text-indent: -9999px;
+          overflow: hidden
+      }
+  
+      html[lang="en"] .header-rf2017-ph1 .header-rf2017-ph1-list .header-rf2017-ph1-item-shop {
+          margin-left: 7px
+      }
+  
+      html[lang="en"] .header-rf2017-ph1 .header-rf2017-ph1-list .header-rf2017-ph1-item-shop a {
+          background-image: url(/en/site/set/common/s/img/sprite-rf2017-ph1.png?20171019);
+          background-position: -73.5px 0px;
+          width: 25px;
+          height: 35px;
+          -webkit-background-size: 98.5px 35px;
+          background-size: 98.5px 35px;
+          background-repeat: no-repeat;
+          text-indent: -9999px;
+          overflow: hidden
+      }
+  
+      html[lang="en"] .header-rf2017-ph1 .header-rf2017-ph1-menu-button {
+          margin-left: 7px;
+          background-image: url(/en/site/set/common/s/img/sprite-rf2017-ph1.png?20171019);
+          background-position: -45px 0px;
+          width: 26.5px;
+          height: 35px;
+          -webkit-background-size: 98.5px 35px;
+          background-size: 98.5px 35px;
+          background-repeat: no-repeat;
+          text-indent: -9999px;
+          overflow: hidden
+      }
+  }
+  
+  .categorynav-rf2017-ph1 .categorynav-rf2017-ph1-overlay {
+      display: none;
+      position: fixed;
+      z-index: 4;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 120%;
+      background: #000;
+      opacity: 0
+  }
+  
+  .categorynav-rf2017-ph1 .categorynav-rf2017-ph1-header {
+      position: relative;
+      z-index: 5;
+      padding: 7px 10px;
+      background: #e6e8eb
+  }
+  
+  .categorynav-rf2017-ph1 .categorynav-rf2017-ph1-header.categorynav-rf2017-ph1-header-menu-button {
+      clear: both
+  }
+  
+  .categorynav-rf2017-ph1 .categorynav-rf2017-ph1-header.categorynav-rf2017-ph1-header-menu-button:before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 16px;
+      bottom: 0;
+      margin: auto 0;
+      width: 1px;
+      height: 13px;
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+      opacity: 1;
+      background-color: #5f6e7e;
+      -webkit-transition: all 300ms ease-out;
+      transition: all 300ms ease-out
+  }
+  
+  .categorynav-rf2017-ph1 .categorynav-rf2017-ph1-header.categorynav-rf2017-ph1-header-menu-button:after {
+      content: '';
+      display: block;
+      top: 0;
+      right: 10px;
+      bottom: 0;
+      position: absolute;
+      margin-top: auto;
+      margin-bottom: auto;
+      width: 13px;
+      height: 1px;
+      opacity: 1;
+      background-color: #5f6e7e;
+      -webkit-transition: all 300ms ease-out;
+      transition: all 300ms ease-out
+  }
+  
+  .categorynav-rf2017-ph1 .categorynav-rf2017-ph1-header.categorynav-rf2017-ph1-header-menu-button-open:before {
+      -webkit-transform: rotate(-270deg);
+      transform: rotate(-270deg)
+  }
+  
+  .categorynav-rf2017-ph1 .categorynav-rf2017-ph1-heading {
+      margin-right: 28px;
+      color: #333333;
+      font-size: 14px;
+      font-weight: bold;
+      line-height: 1
+  }
+  
+  .categorynav-rf2017-ph1 .categorynav-rf2017-ph1-heading a {
+      display: block;
+      line-height: 1
+  }
+  
+  .categorynav-rf2017-ph1 .categorynav-rf2017-ph1-heading a:link,.categorynav-rf2017-ph1 .categorynav-rf2017-ph1-heading a:active,.categorynav-rf2017-ph1 .categorynav-rf2017-ph1-heading a:visited,.categorynav-rf2017-ph1 .categorynav-rf2017-ph1-heading a:hover,.categorynav-rf2017-ph1 .categorynav-rf2017-ph1-heading a:focus {
+      color: #333333;
+      font-weight: bold;
+      text-decoration: none
+  }
+  
+  .categorynav-rf2017-ph1 .categorynav-rf2017-ph1-content {
+      position: relative
+  }
+  
+  .categorynav-rf2017-ph1 .categorynav-rf2017-ph1-menu {
+      position: absolute;
+      z-index: 1000;
+      width: 100%;
+      height: 0;
+      overflow: hidden;
+      opacity: 0.98
+  }
+  
+  .categorynav-rf2017-ph1 .categorynav-rf2017-ph1-menu .categorynav-rf2017-ph1-menu-list {
+      margin: 0;
+      padding: 30px 40px;
+      width: 100%;
+      background: #e6e8eb;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box
+  }
+  
+  .categorynav-rf2017-ph1 .categorynav-rf2017-ph1-menu .categorynav-rf2017-ph1-menu-list>li {
+      padding: 9px 0;
+      line-height: 1.42857;
+      float: none
+  }
+  
+  .categorynav-rf2017-ph1 .categorynav-rf2017-ph1-menu .categorynav-rf2017-ph1-menu-list>li>a {
+      font-weight: normal;
+      display: block;
+      color: #006699;
+      text-decoration: none;
+      font-size: 14px
+  }
+  
+  .menu-rf2017-ph1 {
+      display: none;
+      padding: 20px
+  }
+  
+  .menu-rf2017-ph1 .menu-rf2017-ph1-utility {
+      position: relative
+  }
+  
+  .menu-rf2017-ph1 .menu-rf2017-ph1-search {
+      margin-right: 60px
+  }
+  
+  .menu-rf2017-ph1 .menu-rf2017-ph1-search form {
+      position: relative;
+      padding-right: 39px;
+      border: 1px solid #d8dadc;
+      border-radius: 4px
+  }
+  
+  .menu-rf2017-ph1 .menu-rf2017-ph1-search input[type="text"] {
+      padding: 5px;
+      border: none;
+      border-top-left-radius: 4px;
+      border-bottom-left-radius: 4px;
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      width: 100%;
+      height: 38px;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      background-color: #fff
+  }
+  
+  .menu-rf2017-ph1 .menu-rf2017-ph1-search button {
+      position: relative;
+      padding: 6px 15px;
+      border: none;
+      border-top-right-radius: 4px;
+      border-bottom-right-radius: 4px;
+      width: 39px;
+      height: 38px;
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      background-color: #e6e8eb;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      vertical-align: top;
+      font-weight: bold;
+      text-indent: -9999px;
+      overflow: hidden
+  }
+  
+  .menu-rf2017-ph1 .menu-rf2017-ph1-search button:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 8px;
+      bottom: 0;
+      margin: auto 0;
+      background-image: url(https://cdn.softbank.jp/site/set/common/s/img/sprite-rf2017-ph1.png?20171019);
+      background-position: -168px 0px;
+      width: 21.5px;
+      height: 22px;
+      -webkit-background-size: 211.5px 183px;
+      background-size: 211.5px 183px;
+      background-repeat: no-repeat;
+      text-indent: -9999px;
+      overflow: hidden
+  }
+  
+  .menu-rf2017-ph1 .menu-rf2017-ph1-close-button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto 0;
+      padding: 0;
+      width: 22px;
+      height: 22px;
+      border: none;
+      background: none;
+      -webkit-appearance: none;
+      appearance: none;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      border-radius: 0;
+      outline: none
+  }
+  
+  .menu-rf2017-ph1 .menu-rf2017-ph1-close-button:before,.menu-rf2017-ph1 .menu-rf2017-ph1-close-button:after {
+      content: "";
+      margin-right: auto;
+      margin-left: auto;
+      width: 1px;
+      height: 30px;
+      display: block;
+      position: absolute;
+      top: -4px;
+      right: 0;
+      left: 0;
+      background-color: #5f6e7e
+  }
+  
+  .menu-rf2017-ph1 .menu-rf2017-ph1-close-button:before {
+      -webkit-transform: rotate(-45deg);
+      transform: rotate(-45deg)
+  }
+  
+  .menu-rf2017-ph1 .menu-rf2017-ph1-close-button:after {
+      -webkit-transform: rotate(225deg);
+      transform: rotate(225deg)
+  }
+  
+  .menu-rf2017-ph1 .menu-rf2017-ph1-nav {
+      margin-top: 30px
+  }
+  
+  .menu-rf2017-ph1 .menu-rf2017-ph1-nav .menu-rf2017-ph1-nav-header {
+      display: table;
+      width: 100%
+  }
+  
+  .menu-rf2017-ph1 .menu-rf2017-ph1-nav .menu-rf2017-ph1-nav-header:after {
+      content: "";
+      display: block;
+      clear: both
+  }
+  
+  .menu-rf2017-ph1 .menu-rf2017-ph1-nav .menu-rf2017-ph1-nav-heading {
+      display: table-cell;
+      vertical-align: middle;
+      font-size: 18px;
+      font-weight: bold;
+      line-height: 1.33333
+  }
+  
+  .menu-rf2017-ph1 .menu-rf2017-ph1-nav .menu-rf2017-ph1-nav-utility {
+      display: table-cell;
+      float: right;
+      vertical-align: middle
+  }
+  
+  .menu-rf2017-ph1 .menu-rf2017-ph1-nav .menu-rf2017-ph1-nav-utility>a {
+      font-size: 14px;
+      font-weight: normal;
+      color: #006699;
+      text-decoration: none;
+      line-height: 1.42857
+  }
+  
+  .menu-rf2017-ph1 .menu-rf2017-ph1-nav .menu-rf2017-ph1-nav-list {
+      margin: 0;
+      margin-top: 16px
+  }
+  
+  .menu-rf2017-ph1 .menu-rf2017-ph1-nav .menu-rf2017-ph1-nav-list>li {
+      float: none
+  }
+  
+  .menu-rf2017-ph1 .menu-rf2017-ph1-nav .menu-rf2017-ph1-nav-list>li>a {
+      display: block;
+      position: relative;
+      padding: 12px 23px 10px 30px;
+      font-size: 16px;
+      font-weight: normal;
+      line-height: 1.375;
+      color: #333;
+      text-decoration: none
+  }
+  
+  .menu-rf2017-ph1 .menu-rf2017-ph1-nav .menu-rf2017-ph1-nav-list>li>a:after {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 2px;
+      bottom: 0;
+      margin-top: auto;
+      margin-bottom: auto;
+      width: 8px;
+      height: 8px;
+      border-bottom: 1px solid #758495;
+      border-right: 1px solid #758495;
+      -webkit-transform: rotate(-45deg);
+      transform: rotate(-45deg)
+  }
+  
+  .menu-rf2017-ph1 .menu-rf2017-ph1-nav .menu-rf2017-ph1-nav-list>li.menu-rf2017-ph1-nav-item-mobile>a:before {
+      background-image: url(https://cdn.softbank.jp/site/set/common/s/img/sprite-rf2017-ph1.png?20171019);
+      background-position: -22px -163px;
+      width: 20px;
+      height: 20px;
+      -webkit-background-size: 211.5px 183px;
+      background-size: 211.5px 183px;
+      background-repeat: no-repeat;
+      text-indent: -9999px;
+      overflow: hidden;
+      content: "";
+      margin-top: auto;
+      margin-bottom: auto;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0
+  }
+  
+  .menu-rf2017-ph1 .menu-rf2017-ph1-nav .menu-rf2017-ph1-nav-list>li.menu-rf2017-ph1-nav-item-internet>a:before {
+      background-image: url(https://cdn.softbank.jp/site/set/common/s/img/sprite-rf2017-ph1.png?20171019);
+      background-position: -168px -134.5px;
+      width: 20px;
+      height: 20px;
+      -webkit-background-size: 211.5px 183px;
+      background-size: 211.5px 183px;
+      background-repeat: no-repeat;
+      text-indent: -9999px;
+      overflow: hidden;
+      content: "";
+      margin-top: auto;
+      margin-bottom: auto;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0
+  }
+  
+  .menu-rf2017-ph1 .menu-rf2017-ph1-nav .menu-rf2017-ph1-nav-list>li.menu-rf2017-ph1-nav-item-robot>a:before {
+      background-image: url(https://cdn.softbank.jp/site/set/common/s/img/sprite-rf2017-ph1.png?20171019);
+      background-position: -88px -163px;
+      width: 20px;
+      height: 20px;
+      -webkit-background-size: 211.5px 183px;
+      background-size: 211.5px 183px;
+      background-repeat: no-repeat;
+      text-indent: -9999px;
+      overflow: hidden;
+      content: "";
+      margin-top: auto;
+      margin-bottom: auto;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0
+  }
+  
+  .menu-rf2017-ph1 .menu-rf2017-ph1-nav .menu-rf2017-ph1-nav-list>li.menu-rf2017-ph1-nav-item-energy>a:before {
+      background-image: url(https://cdn.softbank.jp/site/set/common/s/img/sprite-rf2017-ph1.png?20171019);
+      background-position: -168px -112.5px;
+      width: 20px;
+      height: 20px;
+      -webkit-background-size: 211.5px 183px;
+      background-size: 211.5px 183px;
+      background-repeat: no-repeat;
+      text-indent: -9999px;
+      overflow: hidden;
+      content: "";
+      margin-top: auto;
+      margin-bottom: auto;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0
+  }
+  
+  .menu-rf2017-ph1 .menu-rf2017-ph1-nav .menu-rf2017-ph1-nav-list>li.menu-rf2017-ph1-nav-item-card>a:before {
+      background-image: url(https://cdn.softbank.jp/site/set/common/s/img/sprite-rf2017-ph1.png?20171019);
+      background-position: -168px -46.5px;
+      width: 20px;
+      height: 20px;
+      -webkit-background-size: 211.5px 183px;
+      background-size: 211.5px 183px;
+      background-repeat: no-repeat;
+      text-indent: -9999px;
+      overflow: hidden;
+      content: "";
+      margin-top: auto;
+      margin-bottom: auto;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0
+  }
+  
+  .menu-rf2017-ph1 .menu-rf2017-ph1-nav .menu-rf2017-ph1-nav-list>li.menu-rf2017-ph1-nav-item-biz>a:before {
+      background-image: url(https://cdn.softbank.jp/site/set/common/s/img/sprite-rf2017-ph1.png?20171019);
+      background-position: 0px -163px;
+      width: 20px;
+      height: 20px;
+      -webkit-background-size: 211.5px 183px;
+      background-size: 211.5px 183px;
+      background-repeat: no-repeat;
+      text-indent: -9999px;
+      overflow: hidden;
+      content: "";
+      margin-top: auto;
+      margin-bottom: auto;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0
+  }
+  
+  .menu-rf2017-ph1 .menu-rf2017-ph1-nav .menu-rf2017-ph1-nav-list>li.menu-rf2017-ph1-nav-item-corp>a:before {
+      background-image: url(https://cdn.softbank.jp/site/set/common/s/img/sprite-rf2017-ph1.png?20171019);
+      background-position: -168px -68.5px;
+      width: 20px;
+      height: 20px;
+      -webkit-background-size: 211.5px 183px;
+      background-size: 211.5px 183px;
+      background-repeat: no-repeat;
+      text-indent: -9999px;
+      overflow: hidden;
+      content: "";
+      margin-top: auto;
+      margin-bottom: auto;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0
+  }
+  
+  .menu-rf2017-ph1 .menu-rf2017-ph1-nav .menu-rf2017-ph1-nav-list>li.menu-rf2017-ph1-nav-item-ir>a:before {
+      background-image: url(https://cdn.softbank.jp/site/set/common/s/img/sprite-rf2017-ph1.png?20171019);
+      background-position: -168px -24px;
+      width: 20px;
+      height: 20.5px;
+      -webkit-background-size: 211.5px 183px;
+      background-size: 211.5px 183px;
+      background-repeat: no-repeat;
+      text-indent: -9999px;
+      overflow: hidden;
+      content: "";
+      margin-top: auto;
+      margin-bottom: auto;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0
+  }
+  
+  .menu-rf2017-ph1 .menu-rf2017-ph1-nav .menu-rf2017-ph1-nav-list>li.menu-rf2017-ph1-nav-item-csr>a:before {
+      background-image: url(https://cdn.softbank.jp/site/set/common/s/img/sprite-rf2017-ph1.png?20171019);
+      background-position: -168px -90.5px;
+      width: 20px;
+      height: 20px;
+      -webkit-background-size: 211.5px 183px;
+      background-size: 211.5px 183px;
+      background-repeat: no-repeat;
+      text-indent: -9999px;
+      overflow: hidden;
+      content: "";
+      margin-top: auto;
+      margin-bottom: auto;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0
+  }
+  
+  .menu-rf2017-ph1 .menu-rf2017-ph1-nav .menu-rf2017-ph1-nav-list>li.menu-rf2017-ph1-nav-item-recruit>a:before {
+      background-image: url(https://cdn.softbank.jp/site/set/common/s/img/sprite-rf2017-ph1.png?20171019);
+      background-position: -66px -163px;
+      width: 20px;
+      height: 20px;
+      -webkit-background-size: 211.5px 183px;
+      background-size: 211.5px 183px;
+      background-repeat: no-repeat;
+      text-indent: -9999px;
+      overflow: hidden;
+      content: "";
+      margin-top: auto;
+      margin-bottom: auto;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0
+  }
+  
+  .menu-rf2017-ph1 .menu-rf2017-ph1-nav .menu-rf2017-ph1-nav-list>li.menu-rf2017-ph1-nav-item-news>a:before {
+      background-image: url(https://cdn.softbank.jp/site/set/common/s/img/sprite-rf2017-ph1.png?20171019);
+      background-position: -44px -163px;
+      width: 20px;
+      height: 20px;
+      -webkit-background-size: 211.5px 183px;
+      background-size: 211.5px 183px;
+      background-repeat: no-repeat;
+      text-indent: -9999px;
+      overflow: hidden;
+      content: "";
+      margin-top: auto;
+      margin-bottom: auto;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0
+  }
+  
+  .menu-rf2017-ph1 .menu-rf2017-ph1-nav .menu-rf2017-ph1-nav-list>li.menu-rf2017-ph1-nav-item-campaign>a:before {
+      background-image: url(https://cdn.softbank.jp/site/set/common/s/img/sprite-rf2017-ph1.png?20171019);
+      background-position: -191.5px 0px;
+      width: 20px;
+      height: 20px;
+      -webkit-background-size: 211.5px 183px;
+      background-size: 211.5px 183px;
+      background-repeat: no-repeat;
+      text-indent: -9999px;
+      overflow: hidden;
+      content: "";
+      margin-top: auto;
+      margin-bottom: auto;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0
+  }
+  
+  .menu-rf2017-ph1 .menu-rf2017-ph1-nav .menu-rf2017-ph1-nav-list>li.menu-rf2017-ph1-nav-item-social>a:before {
+      background-image: url(https://cdn.softbank.jp/site/set/common/s/img/sprite-rf2017-ph1.png?20171019);
+      background-position: -132px -163px;
+      width: 20px;
+      height: 20px;
+      -webkit-background-size: 211.5px 183px;
+      background-size: 211.5px 183px;
+      background-repeat: no-repeat;
+      text-indent: -9999px;
+      overflow: hidden;
+      content: "";
+      margin-top: auto;
+      margin-bottom: auto;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0
+  }
+  
+  .menu-rf2017-ph1 .menu-rf2017-ph1-nav .menu-rf2017-ph1-nav-list>li.menu-rf2017-ph1-nav-item-support>a:before {
+      background-image: url(https://cdn.softbank.jp/site/set/common/s/img/sprite-rf2017-ph1.png?20171019);
+      background-position: -154px -163px;
+      width: 20px;
+      height: 20px;
+      -webkit-background-size: 211.5px 183px;
+      background-size: 211.5px 183px;
+      background-repeat: no-repeat;
+      text-indent: -9999px;
+      overflow: hidden;
+      content: "";
+      margin-top: auto;
+      margin-bottom: auto;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0
+  }
+  
+  .menu-rf2017-ph1 .menu-rf2017-ph1-nav .menu-rf2017-ph1-nav-list>li.menu-rf2017-ph1-nav-item-sitemap>a:before {
+      background-image: url(https://cdn.softbank.jp/site/set/common/s/img/sprite-rf2017-ph1.png?20171019);
+      background-position: -110px -163px;
+      width: 20px;
+      height: 20px;
+      -webkit-background-size: 211.5px 183px;
+      background-size: 211.5px 183px;
+      background-repeat: no-repeat;
+      text-indent: -9999px;
+      overflow: hidden;
+      content: "";
+      margin-top: auto;
+      margin-bottom: auto;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0
+  }
+  
+  .menu-rf2017-ph1 .menu-rf2017-ph1-nav .menu-rf2017-ph1-nav-list>li.menu-rf2017-ph1-separator {
+      margin-top: 15px;
+      padding-top: 15px;
+      border-top: dotted 1px #cdd0d2
+  }
+  
+  .categorynav-rf2017-ph1 {
+      // margin-bottom: 10px
+  }
+  
+  .header-rf2017-ph1 {
+      font-family: Helvetica, Arial, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "モリサワ 新ゴ R", "Droid Sans", メイリオ, "sans-serif"
+  }
+  
+  .categorynav-rf2017-ph1 {
+      font-family: Helvetica, Arial, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "モリサワ 新ゴ R", "Droid Sans", メイリオ, "sans-serif"
+  }
+  
+  .menu-rf2017-ph1 {
+      font-family: Helvetica, Arial, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "モリサワ 新ゴ R", "Droid Sans", メイリオ, "sans-serif"
+  }
+  
+  #menu-2015>.menu-site-search-2015 {
+      display: none
+  }
+  
+  .footer-rf2017-ph1 {
+      border: none
+  }
+  
+  .footer-rf2017-ph1 .footer-nav {
+      margin: 0
+  }
+  
+  .footer-rf2017-ph1 .footer-nav .footer-nav-hdg {
+      padding: 20px 20px 15px;
+      background: #e6e8eb;
+      line-height: 1.2;
+      text-align: left
+  }
+  
+  .footer-rf2017-ph1 .footer-nav .footer-nav-hdg h1 {
+      font-weight: bold;
+      font-size: 18px
+  }
+  
+  .footer-rf2017-ph1 .footer-nav .footer-nav-hdg .footer-caption {
+      margin: 7px 0 0;
+      padding-bottom: 17px;
+      border-bottom: solid 1px #d8dadc;
+      font-size: 10px
+  }
+  
+  html[lang="en"] .footer-rf2017-ph1 .footer-nav .footer-nav-hdg .footer-caption {
+      padding-bottom: 22px
+  }
+  
+  .footer-rf2017-ph1 .footer-nav .footer-nav-list {
+      margin: 0;
+      padding-right: 20px;
+      padding-left: 20px;
+      background: #e6e8eb
+  }
+  
+  .footer-rf2017-ph1 .footer-nav .footer-nav-list:after {
+      content: "";
+      display: block;
+      clear: both
+  }
+  
+  .footer-rf2017-ph1 .footer-nav .footer-nav-list>li {
+      float: left;
+      width: 50%;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box
+  }
+  
+  .footer-rf2017-ph1 .footer-nav .footer-nav-list>li a {
+      padding: 10px 13px 10px 0;
+      color: #333;
+      display: block;
+      position: relative;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-align-items: center;
+      -webkit-box-align: center;
+      align-items: center;
+      line-height: 1.28571
+  }
+  
+  .footer-rf2017-ph1 .footer-nav .footer-nav-list>li a:before {
+      content: "";
+      margin-top: auto;
+      margin-bottom: auto;
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 2px;
+      bottom: 0;
+      border-right: 1px solid #5f6e7e;
+      border-bottom: 1px solid #5f6e7e;
+      width: 8px;
+      height: 8px;
+      -webkit-transform: rotate(-45deg);
+      transform: rotate(-45deg)
+  }
+  
+  .footer-rf2017-ph1 .footer-nav .footer-nav-list>li .caption {
+      display: block;
+      line-height: 1;
+      -webkit-align-items: stretch;
+      -webkit-box-align: stretch;
+      align-items: stretch
+  }
+  
+  .footer-rf2017-ph1 .footer-nav .footer-nav-list>li:nth-child(odd) {
+      clear: left
+  }
+  
+  .footer-rf2017-ph1 .footer-nav .footer-nav-list>li:nth-child(odd) a {
+      padding-right: 28px
+  }
+  
+  .footer-rf2017-ph1 .footer-nav .footer-nav-list>li:nth-child(odd) a:before {
+      right: 17px
+  }
+  
+  .footer-rf2017-ph1 .footer-nav .footer-nav-list>li:nth-child(even) {
+      padding-left: 15px
+  }
+  
+  .footer-rf2017-ph1 .footer-nav .footer-nav-list.wide>li {
+      float: none;
+      width: 100%
+  }
+  
+  .footer-rf2017-ph1 .footer-nav .footer-nav-list.wide>li a {
+      padding-right: 28px
+  }
+  
+  .footer-rf2017-ph1 .footer-nav .footer-nav-list.wide>li:nth-child(odd) {
+      clear: left
+  }
+  
+  .footer-rf2017-ph1 .footer-nav .footer-nav-list.wide>li:nth-child(odd) a:before {
+      right: 2px
+  }
+  
+  .footer-rf2017-ph1 .footer-nav .footer-sup {
+      margin: 0;
+      padding: 10px 20px 20px;
+      background: #e6e8eb;
+      width: 100%;
+      display: table;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      font-size: 0 !important;
+      text-align: center;
+      text-decoration: none
+  }
+  
+  .footer-rf2017-ph1 .footer-nav .footer-sup>li {
+      margin: 10px 0 0 -1px;
+      display: inline-block;
+      position: relative;
+      font-size: 10px;
+      line-height: 1
+  }
+  
+  .footer-rf2017-ph1 .footer-nav .footer-sup>li a {
+      padding: 0 11px;
+      display: block;
+      text-decoration: none
+  }
+  
+  .footer-rf2017-ph1 .footer-nav .footer-sup>li:before,.footer-rf2017-ph1 .footer-nav .footer-sup>li:after {
+      content: '';
+      width: 1px;
+      height: 10px;
+      display: block;
+      position: absolute;
+      top: 1px;
+      background: #d8dadc
+  }
+  
+  .footer-rf2017-ph1 .footer-nav .footer-sup>li:before {
+      left: 0
+  }
+  
+  .footer-rf2017-ph1 .footer-nav .footer-sup>li:after {
+      right: 0
+  }
+  
+  .footer-nav-hdg+.footer-rf2017-ph1 .footer-nav .footer-sup {
+      padding-top: 0
+  }
+  
+  .footer-rf2017-ph1 .footer-rf2017-ph1-sns {
+      margin-top: 40px;
+      padding: 0 20px
+  }
+  
+  .footer-rf2017-ph1 .footer-rf2017-ph1-sns .footer-rf2017-ph1-sns-heading {
+      color: #000;
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 1.25
+  }
+  
+  .footer-rf2017-ph1 .footer-rf2017-ph1-sns .footer-rf2017-ph1-sns-list {
+      display: table;
+      table-layout: fixed;
+      margin: 20px auto 0 auto;
+      width: 100%;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      text-align: center
+  }
+  
+  .footer-rf2017-ph1 .footer-rf2017-ph1-sns .footer-rf2017-ph1-sns-list>li {
+      display: table-cell;
+      margin: 0;
+      width: auto;
+      float: none
+  }
+  
+  .footer-rf2017-ph1 .footer-rf2017-ph1-sns .footer-rf2017-ph1-sns-list>li img {
+      width: 32px
+  }
+  
+  .footer-rf2017-ph1 .footer-rf2017-ph1-sns .footer-rf2017-ph1-sns-button {
+      display: block;
+      margin-top: 15px;
+      padding: 10px 10px 9px;
+      width: 100%;
+      border: 1px solid #c1c6cc;
+      border-radius: 4px;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      text-align: center;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 1.1;
+      color: #006693;
+      background: none
+  }
+  
+  .footer-rf2017-ph1 .footer-rf2017-ph1-categorynav {
+      margin-top: 35px
+  }
+  
+  .footer-rf2017-ph1 .footer-rf2017-ph1-categorynav .footer-rf2017-ph1-categorynav-list {
+      width: 280px;
+      margin: 0 auto
+  }
+  
+  .footer-rf2017-ph1 .footer-rf2017-ph1-categorynav .footer-rf2017-ph1-categorynav-list:after {
+      content: "";
+      display: block;
+      clear: both
+  }
+  
+  .footer-rf2017-ph1 .footer-rf2017-ph1-categorynav .footer-rf2017-ph1-categorynav-list>li {
+      float: left;
+      margin-left: 20px;
+      margin-top: 15px;
+      width: 80px;
+      font-size: 10px;
+      font-size: 1.0rem;
+      text-align: center;
+      font-weight: bold;
+      white-space: nowrap
+  }
+  
+  .footer-rf2017-ph1 .footer-rf2017-ph1-categorynav .footer-rf2017-ph1-categorynav-list>li:nth-child(3n+1) {
+      margin-left: 0;
+      clear: left
+  }
+  
+  .footer-rf2017-ph1 .footer-rf2017-ph1-categorynav .footer-rf2017-ph1-categorynav-list>li a {
+      display: block;
+      position: relative;
+      padding-top: 50px;
+      color: #5f6e7e
+  }
+  
+  .footer-rf2017-ph1 .footer-rf2017-ph1-categorynav .footer-rf2017-ph1-categorynav-list>li a:before {
+      content: "";
+      display: block;
+      top: 0;
+      right: 0;
+      left: 0;
+      position: absolute;
+      margin-right: auto;
+      margin-left: auto;
+      background-color: #fff;
+      background-image: url(https://cdn.softbank.jp/site/set/common/s/img/sprite-rf2017-ph1.png?20171019);
+      background-position: -84px -42px;
+      width: 40px;
+      height: 40px;
+      -webkit-background-size: 211.5px 183px;
+      background-size: 211.5px 183px;
+      background-repeat: no-repeat;
+      text-indent: -9999px;
+      overflow: hidden
+  }
+  
+  .footer-rf2017-ph1 .footer-rf2017-ph1-categorynav .footer-rf2017-ph1-categorynav-list>li.footer-rf2017-ph1-categorynav-item-mobile>a:before {
+      background-position: -84px -42px
+  }
+  
+  .footer-rf2017-ph1 .footer-rf2017-ph1-categorynav .footer-rf2017-ph1-categorynav-list>li.footer-rf2017-ph1-categorynav-item-internet>a:before {
+      background-position: -84px 0px
+  }
+  
+  .footer-rf2017-ph1 .footer-rf2017-ph1-categorynav .footer-rf2017-ph1-categorynav-list>li.footer-rf2017-ph1-categorynav-item-robot>a:before {
+      background-position: 0px -84px
+  }
+  
+  .footer-rf2017-ph1 .footer-rf2017-ph1-categorynav .footer-rf2017-ph1-categorynav-list>li.footer-rf2017-ph1-categorynav-item-energy>a:before {
+      background-position: 0px -42px
+  }
+  
+  .footer-rf2017-ph1 .footer-rf2017-ph1-categorynav .footer-rf2017-ph1-categorynav-list>li.footer-rf2017-ph1-categorynav-item-shop>a:before {
+      background-position: -42px -84px
+  }
+  
+  .footer-rf2017-ph1 .footer-rf2017-ph1-categorynav .footer-rf2017-ph1-categorynav-list>li.footer-rf2017-ph1-categorynav-item-card>a:before {
+      background-position: -126px -42px
+  }
+  
+  .footer-rf2017-ph1 .footer-rf2017-ph1-categorynav .footer-rf2017-ph1-categorynav-list>li.footer-rf2017-ph1-categorynav-item-biz>a:before {
+      background-position: 0px 0px
+  }
+  
+  .footer-rf2017-ph1 .footer-rf2017-ph1-categorynav .footer-rf2017-ph1-categorynav-list>li.footer-rf2017-ph1-categorynav-item-support>a:before {
+      background-position: -84px -84px
+  }
+  
+  .footer-rf2017-ph1 .footer-rf2017-ph1-categorynav .footer-rf2017-ph1-categorynav-list>li.footer-rf2017-ph1-categorynav-item-corp>a:before {
+      background-position: -126px 0px
+  }
+  
+  .footer-rf2017-ph1 .footer-rf2017-ph1-breadcrumbs {
+      margin-top: 40px;
+      padding: 0 20px
+  }
+  
+  .footer-rf2017-ph1 .footer-rf2017-ph1-breadcrumbs .footer-rf2017-ph1-breadcrumbs-list {
+      margin: 0;
+      list-style-type: none;
+      font-size: 10px;
+      line-height: 1.6
+  }
+  
+  .footer-rf2017-ph1 .footer-rf2017-ph1-breadcrumbs .footer-rf2017-ph1-breadcrumbs-list:after {
+      content: "";
+      display: block;
+      clear: both
+  }
+  
+  .footer-rf2017-ph1 .footer-rf2017-ph1-breadcrumbs .footer-rf2017-ph1-breadcrumbs-list li {
+      float: left;
+      margin-right: 5px;
+      margin-left:0;
+  }
+  
+  .footer-rf2017-ph1 .footer-rf2017-ph1-breadcrumbs .footer-rf2017-ph1-breadcrumbs-list li:before {
+      content: ">";
+      margin-right: 4px
+  }
+  
+  .footer-rf2017-ph1 .footer-rf2017-ph1-breadcrumbs .footer-rf2017-ph1-breadcrumbs-list li:first-child:before {
+      content: "";
+      display: none
+  }
+  
+  .footer-rf2017-ph1 .footer-rf2017-ph1-breadcrumbs .footer-rf2017-ph1-breadcrumbs-list li strong {
+      color: #000;
+      font-weight: normal
+  }
+  
+  .footer-rf2017-ph1 .footer-rf2017-ph1-breadcrumbs .footer-rf2017-ph1-breadcrumbs-list li .footer-rf2017-ph1-breadcrumbs-item-home {
+      display: inline-block;
+      position: relative;
+      padding-left: 16px;
+      line-height: 1;
+      text-decoration: none
+  }
+  
+  .footer-rf2017-ph1 .footer-rf2017-ph1-breadcrumbs .footer-rf2017-ph1-breadcrumbs-list li .footer-rf2017-ph1-breadcrumbs-item-home:before {
+      background-image: url(https://cdn.softbank.jp/site/set/common/s/img/sprite-rf2017-ph1.png?20171019);
+      background-position: -191.5px -106px;
+      width: 12px;
+      height: 11px;
+      -webkit-background-size: 211.5px 183px;
+      background-size: 211.5px 183px;
+      background-repeat: no-repeat;
+      text-indent: -9999px;
+      overflow: hidden;
+      display: block;
+      content: "";
+      position: absolute;
+      bottom: 1px;
+      left: 0
+  }
+  
+  .footer-rf2017-ph1 .footer-rf2017-ph1-utility {
+      margin-top: 20px;
+      padding: 40px 20px 20px;
+      background: #e6e8eb
+  }
+  
+  .footer-rf2017-ph1 .footer-rf2017-ph1-utility .footer-rf2017-ph1-utility-links {
+      margin: 20px 0 0 0;
+      width: 100%;
+      display: table;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      font-size: 0 !important;
+      text-align: center;
+      text-decoration: none
+  }
+  
+  .footer-rf2017-ph1 .footer-rf2017-ph1-utility .footer-rf2017-ph1-utility-links>li {
+      margin: 10px 0 0 0;
+      display: inline-block;
+      position: relative;
+      font-size: 10px;
+      float: none;
+      line-height: 1
+  }
+  
+  .footer-rf2017-ph1 .footer-rf2017-ph1-utility .footer-rf2017-ph1-utility-links>li a {
+      padding: 0 10px;
+      display: block;
+      text-decoration: none;
+      line-height: 1;
+      color: #006699
+  }
+  
+  .footer-rf2017-ph1 .footer-rf2017-ph1-top-utility-sitesearch .footer-rf2017-ph1-utility-sitesearch-form {
+      position: relative;
+      padding-right: 38px;
+      border-radius: 4px
+  }
+  
+  .footer-rf2017-ph1 .footer-rf2017-ph1-top-utility-sitesearch .footer-rf2017-ph1-sitesearch-form-text {
+      margin-right: 0 !important;
+      padding: 5px;
+      border: none;
+      border-top-left-radius: 4px;
+      border-bottom-left-radius: 4px;
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      width: 100%;
+      height: 40px;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      background: #fff
+  }
+  
+  .footer-rf2017-ph1 .footer-rf2017-ph1-top-utility-sitesearch .footer-rf2017-ph1-sitesearch-form-submit {
+      position: relative;
+      padding: 6px 15px;
+      border: none;
+      border-top-right-radius: 4px;
+      border-bottom-right-radius: 4px;
+      width: 40px;
+      height: 40px;
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      background: #f4f5f6;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      vertical-align: top;
+      font-weight: bold;
+      text-indent: -9999px;
+      overflow: hidden
+  }
+  
+  .footer-rf2017-ph1 .footer-rf2017-ph1-top-utility-sitesearch .footer-rf2017-ph1-sitesearch-form-submit:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 8px;
+      bottom: 0;
+      margin: auto 0;
+      background-image: url(https://cdn.softbank.jp/site/set/common/s/img/sprite-rf2017-ph1.png?20171019);
+      background-position: -168px 0px;
+      width: 21.5px;
+      height: 22px;
+      -webkit-background-size: 211.5px 183px;
+      background-size: 211.5px 183px;
+      background-repeat: no-repeat;
+      text-indent: -9999px;
+      overflow: hidden
+  }
+  
+  .footer-rf2017-ph1 .footer-rf2017-ph1-utility-deviceswitcher {
+      margin-top: 30px
+  }
+  
+  .footer-rf2017-ph1 .footer-rf2017-ph1-utility-deviceswitcher>p {
+      margin: 0;
+      font-size: 12px;
+      line-height: 1.5;
+      text-align: center
+  }
+  
+  .footer-rf2017-ph1 .footer-rf2017-ph1-utility-deviceswitcher .footer-rf2017-ph1-utility-deviceswitcher-list {
+      display: table;
+      margin: 10px 0 0;
+      width: 100%;
+      border-radius: 36px;
+      font-size: 12px;
+      font-weight: normal;
+      border: solid 1px #d8dadc;
+      background: #fff
+  }
+  
+  .footer-rf2017-ph1 .footer-rf2017-ph1-utility-deviceswitcher .footer-rf2017-ph1-utility-deviceswitcher-list>li {
+      margin-bottom: 0;
+      border-radius: 36px;
+      width: 50%;
+      height: 36px;
+      display: table-cell;
+      text-align: center;
+      vertical-align: middle;
+      float: none
+  }
+  
+  .footer-rf2017-ph1 .footer-rf2017-ph1-utility-deviceswitcher .footer-rf2017-ph1-utility-deviceswitcher-list>li a {
+      margin-left: -5.35714%;
+      display: block;
+      position: relative;
+      z-index: 4
+  }
+  
+  .footer-rf2017-ph1 .footer-rf2017-ph1-utility-deviceswitcher .footer-rf2017-ph1-utility-deviceswitcher-list>li:first-child {
+      position: relative;
+      z-index: 3;
+      background: #cccfd4;
+      color: #fff
+  }
+  
+  .footer-rf2017-ph1 .footer-rf2017-ph1-utility-language {
+      margin-top: 15px
+  }
+  
+  .footer-rf2017-ph1 .footer-rf2017-ph1-utility-language .footer-rf2017-ph1-utility-language-button {
+      display: block;
+      margin: 0 65px;
+      padding: 12px 9px 11px;
+      border: 1px solid #d8dadc;
+      border-radius: 4px;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      text-align: center;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 1;
+      color: #006693;
+      background: #fff;
+      text-decoration: none
+  }
+  
+  .footer-rf2017-ph1 .footer-rf2017-ph1-utility-copyright {
+      margin: 40px 0 0;
+      text-align: center;
+      line-height: 1
+  }
+  
+  .footer-rf2017-ph1 .footer-rf2017-ph1-utility-copyright small {
+      font-size: 10px
+  }
+  
+  #str-container .footer-rf2017-ph1 .footer-nav .footer-nav-hdg {
+      border-top: none
+  }
+  
+  #str-container .footer-rf2017-ph1 .footer-nav .footer-nav-list {
+      border: none
+  }
+  
+  #str-container .footer-rf2017-ph1 .footer-nav .footer-nav-list>li {
+      margin-bottom: 0;
+      border: none
+  }
+  
+  #str-container .footer-rf2017-ph1 .footer-nav .footer-nav-list>li a {
+      font-weight: normal
+  }
+  
+  #str-container .footer-rf2017-ph1 .footer-nav .footer-nav-list>li a span {
+      display: block;
+      -webkit-align-items: stretch;
+      -webkit-box-align: stretch;
+      align-items: stretch
+  }
+  
+  #str-container .footer-rf2017-ph1 .footer-nav .footer-nav-list>li a:before {
+      content: "";
+      margin-top: auto;
+      margin-bottom: auto;
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 2px;
+      bottom: 0;
+      border-right: 1px solid #5f6e7e;
+      border-bottom: 1px solid #5f6e7e;
+      width: 8px;
+      height: 8px;
+      -webkit-transform: rotate(-45deg);
+      transform: rotate(-45deg)
+  }
+  
+  #str-container .footer-rf2017-ph1 .footer-nav .footer-nav-list>li:nth-child(odd) a:before {
+      right: 17px
+  }
+  
+  #str-container .footer-rf2017-ph1 .footer-nav .footer-nav-list.wide>li:nth-child(odd) a:before {
+      right: 2px
+  }
+  
+  #str-container .footer-rf2017-ph1 .footer-nav .footer-nav-list+.footer-nav-list {
+      margin-top: 0
+  }
+  
+  #str-container .footer-rf2017-ph1 .footer-nav .footer-sup {
+      border-bottom: none;
+      letter-spacing: inherit
+  }
+  
+  #str-container .footer-rf2017-ph1 .footer-nav .footer-sup>li {
+      border: none
+  }
+  
+  #str-container .footer-rf2017-ph1 .footer-nav .footer-sup>li a {
+      font-weight: normal
+  }
+  
+  #str-container .footer-rf2017-ph1 .footer-rf2017-ph1-breadcrumbs .footer-rf2017-ph1-breadcrumbs-list li a {
+      color: #006699;
+      font-weight: normal;
+      text-decoration: none
+  }
+  
+  #str-container .footer-rf2017-ph1 .footer-rf2017-ph1-utility .footer-rf2017-ph1-utility-deviceswitcher .footer-rf2017-ph1-utility-deviceswitcher-list li a {
+      font-weight: normal
+  }
+  
+  #str-container .footer-rf2017-ph1 .footer-rf2017-ph1-utility-links li a {
+      font-weight: normal
+  }
+  
+  #nav-top-area {
+      position: fixed;
+      opacity: 0.7;
+      display: block;
+      bottom: 30px;
+      right: 10px;
+      width: 40px;
+      height: 40px;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      -webkit-transition: 1.0s;
+      transition: 1.0s;
+      border-radius: 4px;
+      text-align: center;
+      text-indent: 100%;
+      overflow: hidden;
+      white-space: nowrap
+  }
+  
+  #nav-top-area.hide {
+      opacity: 0;
+      -webkit-transition: 0.5s;
+      transition: 0.5s;
+      pointer-events: none
+  }
+  
+  #nav-top-area.wait {
+      opacity: 0.3;
+      display: block;
+      -webkit-transition: 2.5s;
+      transition: 2.5s
+  }
+  
+  #nav-top-area.move {
+      opacity: 0.6;
+      display: block;
+      -webkit-transition: 0.1s;
+      transition: 0.1s
+  }
+  
+  #nav-top-area #nav-top {
+      position: relative;
+      width: 100%;
+      height: 100%
+  }
+  
+  #nav-top-area a#nav-top-btn {
+      text-decoration: none;
+      position: absolute;
+      display: block;
+      width: 100%;
+      height: 100%;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box
+  }
+  
+  #nav-top-area a#nav-top-btn:before {
+      background-image: url(https://cdn.softbank.jp/site/set/common/s/img/sprite-rf2017-ph1.png?20171019);
+      background-position: -42px -42px;
+      width: 40px;
+      height: 40px;
+      -webkit-background-size: 211.5px 183px;
+      background-size: 211.5px 183px;
+      background-repeat: no-repeat;
+      text-indent: -9999px;
+      overflow: hidden;
+      position: absolute;
+      display: block;
+      content: "";
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0
+  }
+  
+  #nav-top-area a#nav-top-btn.ja {
+      padding-top: 28px;
+      font-size: 6px;
+      font-size: 0.6rem;
+      color: white;
+      font-weight: normal
+  }
+  
+  #nav-top-area a#nav-top-btn.en:before {
+      background-image: url(https://cdn.softbank.jp/site/set/common/s/img/sprite-rf2017-ph1.png?20171019);
+      background-position: -42px 0px;
+      width: 40px;
+      height: 40px;
+      -webkit-background-size: 211.5px 183px;
+      background-size: 211.5px 183px;
+      background-repeat: no-repeat;
+      text-indent: -9999px;
+      overflow: hidden
+  }
+  
+  .footer-rf2017-ph1 {
+      color: #333333;
+      line-height: 1.55;
+      font-size: 14px;
+      font-family: Helvetica, Arial, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "モリサワ 新ゴ R", "Droid Sans", メイリオ, "sans-serif"
+  }
+  
+  .footer-rf2017-ph1 a {
+      color: #006699;
+      text-decoration: none;
+      font-weight: normal
+  }
+  
+  .footer-rf2017-ph1 a:visited {
+      color: purple
+  }
+  
+  .footer-rf2017-ph1 .footer-rf2017-ph1-sns .footer-rf2017-ph1-sns-list>li img {
+      vertical-align: bottom
+  }
+  
+  .footer-rf2017-ph1 .footer-rf2017-ph1-top-utility-sitesearch .footer-rf2017-ph1-sitesearch-form-text {
+      font-family: inherit
+  }
+  
+  #nav-top-area {
+      font-family: Helvetica, Arial, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "モリサワ 新ゴ R", "Droid Sans", メイリオ, "sans-serif"
+  }
+  
+  .footer-rf2017-ph1>.footer-site-search {
+      display: none
+  }
+  
+  .footer-rf2017-ph1>.ua-switcher {
+      display: none
+  }
+  
+  .footer-rf2017-ph1 .footer-rf2017-ph1-utility>.footer-topic-path {
+      display: none
+  }
+
+
+}//.fw

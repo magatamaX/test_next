@@ -1,0 +1,408 @@
+@charset "utf-8";
+
+.fw {
+    // ----------------------------------------------------------
+    // Sample
+    // ----------------------------------------------------------
+    .m-ttlBox {
+      @include transition($sec:0.1, $ease:linear, $delay:0);
+      transform: translate3d(0, 0, 0);
+      * {
+        @include transition($sec:0.1, $ease:linear, $delay:0);
+        transform: translate3d(0, 0, 0);
+      }
+    }
+    
+    .m-ttlBox {
+      position: -webkit-sticky; /* Safari */
+      position: sticky;
+      height: 70px;
+      top: 0;
+      z-index: 100;
+      @include mt(0);
+      // @include transition(0.2)
+      
+      &_wrapper {
+        background-color: $superLightGray;
+        text-align: center;
+        width: 100%;
+        height: 70px;
+        border-bottom: 4px solid $color_main;
+      }
+
+      &.sticking {
+          .m-ttlBox_wrapper {
+            height: 70%;
+          }
+          // @include mt(25px);
+          .m-ttlBox_main {
+            @include fontSize(14px);
+          }
+      }
+      
+      &_inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        
+      }
+      
+      &_main {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        display: inline-block;
+        @include fontSize(18px);
+        font-weight: bold;
+        @include width(300px);
+        line-height: 1.4;
+        color: #111;
+        // @include transition(0.2)
+      }
+      
+      &_breadcrumb {
+        position: absolute;
+        display: block;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 10px;
+        @include fontSize(12px);
+        line-height: 1;
+        
+        span {
+          display: block;
+          font-weight: bold;
+          @include arrow($color:$color_main, $size:6, $width:2,$layout:left,$direction:left);
+        }
+        
+      }
+  
+    } //.m-ttlBox
+    
+    .m-blockNavi {
+      @include flexBase( "wrap", "row", "flex-start", "stretch" )
+      // flexBase( $wrap: "wrap", $direction:  "row", $justify: "flex-start", $align: "stretch" )
+      
+      li {
+        width: 50%;
+        text-align: center;
+        position: relative;
+        
+        &:after {
+          content: '';
+          display: block;
+          width: 90%;
+          padding-top: 100%;
+          border-bottom: 1px solid #ccc;
+        }
+
+        &:nth-child(odd) {
+          a {
+            @include pr(30px);
+          }
+          &:before {
+            content: '';
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 1px;
+            height: 80%;
+            background-color: #ccc;
+          }
+          &:after {
+            margin-right: 10%;
+          }
+        }
+        &:nth-child(even) {
+          a {
+            @include pl(30px);
+          }
+          &:after {
+            margin-left: 10%;
+          }
+        }
+        &:last-child {
+          &:after {
+            border-bottom: 0;
+          }
+        }
+        
+        a {
+          position: absolute;
+          top: 0;
+          left: 0;
+          @include pd(20px);
+          width: 100%;
+          height: 100%;
+          @include flexBase( "nowrap", "column", "flex-end", "center" )
+        }
+        
+        p {
+          line-height: 1.4;
+          @include pd(20px 0);
+          &.l2 {
+            @include pd(10px 0);
+          }
+        }
+        
+      }
+      
+    } //.m-blockNavi
+    
+    .m-boxNavi {
+      
+      &.shadow {
+        
+        li {
+            box-shadow: 1px 1px 3px #ddd;
+          }
+
+      }
+      
+      &.radius {
+        
+        li {
+          border-radius: 10px;
+        }
+
+      }
+      
+      &.arrowBlack {
+        
+        li {
+          a {
+            @include arrowAbs(#000, 6, 2, right, 20, right);
+          }
+        }
+
+      }
+      
+      &.arrowBlue {
+        
+        li {
+          a {
+            @include arrowAbs($color_main, 8, 2, right, 20, right);
+          }
+        }
+
+      }
+      
+      li {
+        background-color: #fff;
+        @include mb(10px);
+        
+        a {
+          display: block;
+          @include pd(20px 40px 20px 20px);
+          @include flexBase( "nowrap", "row", "flex-start", "center" )
+          // flexBase( $wrap: "wrap", $direction:  "row", $justify: "flex-start", $align: "stretch" )
+          
+          .icon {
+            flex: 0 0 60px;
+            text-align: center;
+          }
+          .image {
+            flex: 0 0 80px;
+            text-align: center;
+            img {
+              max-height: 80px;
+            }
+          }
+          .txt {
+            @include pl(20px);
+            color: #000;
+            p {
+              @include fontSize(11px);
+              line-height: 180%;
+            }
+          }
+        }
+        
+      }
+      
+    } //.m-boxNavi
+    
+    
+    .m-listNavi {
+      
+      &_white {
+        color: #fff;
+        a {
+          color: #fff;
+        }
+      }
+      
+      border-top: 1px solid #ccc;
+      
+      li {
+        border-bottom: 1px solid #ccc;
+
+        a {
+          display: block;
+          @include pd(20px 40px 20px 0);
+          @include arrowAbs(#fff, 8, 2, right, 10, right);
+        }
+
+      }
+      
+      
+    } //.m-listNavi
+    
+    .m-productList {
+      
+      overflow-x: scroll;
+      
+      ul {
+        @include clearfix;
+        width: 480px;
+        
+        li {
+          float: left;
+          width: 150px;
+          @include mr(10px);
+          background-color: #fff;
+          @include pd(20px);
+          text-align: center;
+          
+          figure {
+            img {
+              max-height: 110px;
+            }
+            figcaption {
+              font-weight: bold;
+              @include mt(20px);
+              @include fontSize(12px);
+            }
+          }
+        }
+        
+      }
+
+    } //.m-productList
+    
+    .m-sitesearch {
+      height: 40px;
+      margin: 0 20px;
+      -webkit-transition: .3s;
+      transition: .3s;
+      position: relative;
+      
+      // &.focus {
+      //   margin: 0 0;
+      // }
+      
+      .sitesearch-form {
+        height: 100%;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        position: relative;
+        
+        .input-wrap {
+          width: 100%;
+          border-radius: 30px;
+          background: #ffffff;
+          height: 100%;
+          border: 1px solid #7a7b7d;
+          
+          .input-padding{
+            padding: 0 20px;
+            height: 100%;
+          }
+        }
+        
+        .sitesearch-form-text {
+          width: 100% !important;
+          height: 100% !important;
+          font-size: 71.42857%;
+          -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+          border: none;
+          outline: none;
+          background-color: transparent;
+        }
+        
+        .sitesearch-form-submit {
+          background-image: url(../images/sprite-mobile-top-sp.png);
+          background-repeat: no-repeat;
+          background-size: 275px;
+          background-position: -110px -110px;
+          width: 22px;
+          height: 22px;
+          text-indent: -9999px;
+          overflow: hidden;
+          top: 0;
+          bottom: 0;
+          margin: auto;
+          right: 15px;
+          background-color: inherit;
+          border: none;
+          display: block;
+          position: absolute;
+          -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+          outline: none;
+        }
+
+      }
+      
+    }//.m-sitesearch
+    
+    // クイックリンク
+    #quickLink {
+      display: none;
+      opacity: 0;
+      @include pd(20px 40px);
+      background: $lightGray;
+      @include transition(0.2);
+      &.active {
+        display: block;
+        animation-name: qlactive;
+        animation-duration: 0.5s;
+        animation-fill-mode: forwards;
+        animation-delay: 0;
+        animation-iteration-count: 1;
+      }
+      
+      .quickLink {
+        &_ttl {
+          @include fontSize(12px);
+          color: $gray;
+        }
+      }
+      ul {
+        @include mt(10px);
+        li {
+          @include mb(5px);
+          a {
+            display: block;
+            color: #333333;
+            @include arrowAbs($color:#333333, $size:6, $width:1,$layout:right,$position:0,$direction:right)
+          }
+        }
+      }
+    }
+    
+    .m-noticelist {
+        
+      li {
+        @include pd(20px);
+        
+        .date {
+          font-weight: bold;
+        }
+        
+        &:nth-child(odd) {
+          background-color: $superUltraLightgray;
+        }
+      }
+      
+    }//.m-noticelist
+
+}//.fw
+
+@keyframes qlactive {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}

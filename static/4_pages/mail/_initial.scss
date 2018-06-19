@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+.fw#mail {
+  
+  &.mail_initial {
+    // ---------------------------------------------------------------------------
+    //
+    // /mail/setup.html
+    //
+    // ---------------------------------------------------------------------------
+    .p-accordion_detail {
+      // display: none;
+    }
+    .p-ol {
+      padding:0;
+      margin:0;
+      list-style:none;
+      counter-reset: counter;
+      
+      &>li {
+        padding:0;
+        margin:0;
+        list-style:none;
+        // counter-reset: counter;
+        counter-increment: counter;
+        position: relative;
+        
+        margin-left: 1.5em;
+        &:after {
+
+          content: counter(counter)'.';
+          display: inline-block;
+          font-weight: bold;
+          position: absolute;
+          top: 0;
+          left: -1.5em;
+        }
+      }
+      
+      &_circle {
+        
+        &>li {
+          margin-left: 0;
+          margin-bottom: 60px;
+          @include triangle($color:rgba(#343434, 0.1), $width:44, $height:20, $direction:bottom)
+          
+          &:last-child {
+            margin-bottom: 0;
+            &:before {
+              display: none;
+            }
+          }
+          &:after {
+            content: counter(counter);
+            background-color: $color_main;
+            color: #fff;
+            border-radius: 100%;
+            width: 25px;
+            height: 25px;
+            text-align: center;
+            line-height: 25px;
+            font-size: 14px;
+            left: 0;
+          }
+        }
+        
+        &_ttl {
+          margin-left: 30px;
+        }
+        
+        figure {
+          @include mg(0 auto);
+          @include pd(20px 0);
+          max-width: 187.5px;
+        }
+      }
+    }
+      
+  }
+
+}//.fw

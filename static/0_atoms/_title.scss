@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+.fw {
+
+    // ----------------------------------------------------------
+    // Title
+    // ----------------------------------------------------------
+    .a-ttl {
+      display: block;
+      @include fontSize(19px);
+      font-weight: bold;
+      letter-spacing: 0.05em;
+      @include mb(10px);
+      
+      &_main {
+        @include mg(0);
+        @include fontSize(16px);
+        @include pd(10px 0);
+      }
+      
+      &_regular {
+        @include fontSize(inherit);
+        @include mb(0);
+      }
+      
+      &_s {
+        @include fontSize(18px);
+      }
+      &_xs {
+        @include fontSize(16px);
+      }
+      &_xxs {
+        @include fontSize(12px);
+        letter-spacing: normal;
+      }
+      &_black {
+        color: #000;
+      }
+      
+      &_blue {
+        color: $color_main;
+      }
+      
+      &_bgDarkGray {
+        color: #c1c1c1;
+        background-color: $darkGray;
+      }
+      
+      &_center {
+        text-align: center;
+      }
+    }
+
+}//.fw

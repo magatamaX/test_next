@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+.fw#top {
+  
+  &.top {
+    // ---------------------------------------------------------------------------
+    //
+    // /index.html
+    //
+    // ---------------------------------------------------------------------------
+      .p-notice {
+        
+        &_ttl {
+          background-color: #000;
+          color: #fff;
+          @include pd(20px);
+          text-align: center;
+        }
+        
+        &_link {
+          @include pd(20px 40px 20px 20px);
+          @include arrowAbs($color_main, 8, 2, right, 20, right);
+          display: block;
+          color: #000;
+          &_date {
+            font-weight: bold;
+          }
+          &_txt {
+            
+          }
+        }
+        
+        
+      }
+      
+      .p-welcome {
+        @include pt(40px);
+        @include pb(20px);
+      }
+      
+  }
+
+}//.fw

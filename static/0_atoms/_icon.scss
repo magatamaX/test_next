@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+.fw {
+
+    // ----------------------------------------------------------
+    // Icon
+    // ----------------------------------------------------------
+    .a-icon {
+      
+      display: inline-block;
+      background-image: url(../images/sprite-mobile-top-sp.png);
+      background-repeat: no-repeat;
+      background-size: 275px;
+      
+      &_block {
+        // display: block;
+        // width: 55px;
+        // height: 55px;
+        // margin: 0 auto 20px;
+      }
+      
+      &_mail {
+        background-position: 0 0;
+        width: 54px;
+        height: 38px;
+        
+        &_setting {
+          background-position: -55px -55px;
+          width: 49px;
+          height: 36px;
+        }
+        
+        &_secure {
+          background-position: 0 -55px;
+          width: 49px;
+          height: 35px;
+        }
+
+      }
+      &_data {
+        background-position: -220px 0;
+        width: 44px;
+        height: 47px;
+      }
+      &_agreement {
+        background-position: -110px 0;
+        width: 41px;
+        height: 48px;
+      }
+      &_maintenance {
+        background-position: 0px -110px;
+        width: 45px;
+        height: 45px;
+      }
+      &_trouble {
+        background-position: -110px -55px;
+        width: 51px;
+        height: 51px;
+      }
+      &_operation {
+        background-position: -220px -55px;
+        width: 38px;
+        height: 54px;
+      }
+      &_others {
+        background-position: -165px -55px;
+        width: 46px;
+        height: 39px;
+      }
+      &_backup {
+        background-position: -165px 0;
+        width: 50px;
+        height: 46px;
+      }
+      &_help {
+        background-position: -55px -110px;
+        width: 46px;
+        height: 46px;
+      }
+      
+      
+      
+    }
+
+
+}//.fw

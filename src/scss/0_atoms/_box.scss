@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+.fw {
+
+    // ----------------------------------------------------------
+    // Box
+    // ----------------------------------------------------------
+    
+    .a-box {
+      @include pd(10px);
+      
+      &_white {
+        
+        background-color: #fff;
+        color: $color_main;
+        
+      }
+      
+      &_radius {
+        border-radius: 10px;
+      }
+      
+      & > .a-ttl {
+        @include mt(30px);
+      }
+      
+      
+    }
+
+}//.fw

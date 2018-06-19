@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+.fw {
+
+    // ----------------------------------------------------------
+    // Sample
+    // ----------------------------------------------------------
+
+    .listCaption{
+
+      @include ml( -5px );
+      @include mr( -5px );
+
+      .item{
+
+        @include pd( 0 5px );
+        width: 175px;
+
+        a{
+          color: #fff;
+          background: $black80;
+          display: block;
+                transition: .3s;
+                &.isHover{
+                    opacity: .6;
+                }
+            }
+
+        .category{
+          @include fontSize(14px,14px,10px);
+          @include mt( 18px, 18px, 15px );
+          @include pl( 25px, 25px, 20px );
+          font-family: $sub_font;
+          position: relative;
+
+          &:before,
+          &:after{
+            display: inline-block;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+          }
+
+          &:before{
+            content: "";
+            width: 18px;
+            height: 4px;
+            left: 0;
+            background: #fff;
+          }
+          &:after{
+                    @include pd( 6px 14px, 6px 14px, 4px 6px );
+            @include fontSize(12,12,10);
+            @include gradient( $type: "linear", $direction: 0deg, $start-color: $text_sub_color, $end-color: $text_main_color );
+            right: 25px;
+            line-height: 1;
+                    color: #fff;
+                    font-weight: bold;
+          }
+        }
+
+        .txt{
+          @include fontSize($font-size_base+px,$font-size_base+px,14px);
+          @include pd( 5px 25px 0, 5px 25px 0, 10px 20px 0 );
+          line-height: 155%;
+          min-height: 92px;
+          position: relative;
+          span {
+            display: inline-block;
+            @include fontSize(12px);
+            text-decoration: underline;
+            @include ml(15px);
+          }
+        }
+
+        &.new{
+
+          .category{
+
+            &:after{
+              content: "NEW";
+            }
+
+          }
+
+        }
+      }
+
+        & + .btnArea{
+            @include mt( 40px, 40px, 30px );
+        }
+
+      // @include tb {
+        .item{
+
+          width: 175px;
+
+                a{
+                    &.isHover{
+                        .category{
+                            &:before{
+                                width: 20px;
+                            }
+                        }
+                    }
+                }
+
+          .category{
+
+            &:before{
+              width: 14px;
+              height: 2px;
+            }
+            &:after{
+              right: 20px;
+            }
+          }
+
+                .txt{
+                    min-height: 68px;
+                }
+        }
+      // }
+    } //.listCaption
+    
+}//.fw
